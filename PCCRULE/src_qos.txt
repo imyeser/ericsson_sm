@@ -1,0 +1,156 @@
+epg pgw qos-control service-profile QoS_0K
+ maximum-bit-rate-uplink   0
+ maximum-bit-rate-downlink 0
+!
+epg pgw qos-control service-profile QoS_100K
+ maximum-bit-rate-uplink   105
+ maximum-bit-rate-downlink 105
+!
+epg pgw qos-control service-profile QoS_10K
+ maximum-bit-rate-uplink   10
+ maximum-bit-rate-downlink 10
+!
+epg pgw qos-control service-profile QoS_10M
+ maximum-bit-rate-uplink   10570
+ maximum-bit-rate-downlink 10570
+!
+epg pgw qos-control service-profile QoS_1200K
+ maximum-bit-rate-uplink   1268
+ maximum-bit-rate-downlink 1268
+!
+epg pgw qos-control service-profile QoS_12M
+ maximum-bit-rate-uplink   12684
+ maximum-bit-rate-downlink 12684
+!
+epg pgw qos-control service-profile QoS_14M
+ maximum-bit-rate-uplink   14798
+ maximum-bit-rate-downlink 14798
+!
+epg pgw qos-control service-profile QoS_1500K
+ maximum-bit-rate-uplink   1585
+ maximum-bit-rate-downlink 1585
+!
+epg pgw qos-control service-profile QoS_15M
+ maximum-bit-rate-uplink   15855
+ maximum-bit-rate-downlink 15855
+!
+epg pgw qos-control service-profile QoS_16M
+ maximum-bit-rate-uplink   16912
+ maximum-bit-rate-downlink 16912
+!
+epg pgw qos-control service-profile QoS_18M
+ maximum-bit-rate-uplink   19026
+ maximum-bit-rate-downlink 19026
+!
+epg pgw qos-control service-profile QoS_1K
+ maximum-bit-rate-uplink   1
+ maximum-bit-rate-downlink 1
+!
+epg pgw qos-control service-profile QoS_1M
+ maximum-bit-rate-uplink   1057
+ maximum-bit-rate-downlink 1057
+!
+epg pgw qos-control service-profile QoS_200K
+ maximum-bit-rate-uplink   211
+ maximum-bit-rate-downlink 211
+!
+epg pgw qos-control service-profile QoS_20K
+ maximum-bit-rate-uplink   21
+ maximum-bit-rate-downlink 21
+!
+epg pgw qos-control service-profile QoS_20M
+ maximum-bit-rate-uplink   21140
+ maximum-bit-rate-downlink 21140
+!
+epg pgw qos-control service-profile QoS_25M
+ maximum-bit-rate-uplink   26425
+ maximum-bit-rate-downlink 26425
+!
+epg pgw qos-control service-profile QoS_2M
+ maximum-bit-rate-uplink   2114
+ maximum-bit-rate-downlink 2114
+!
+epg pgw qos-control service-profile QoS_300K
+ maximum-bit-rate-uplink   317
+ maximum-bit-rate-downlink 317
+!
+epg pgw qos-control service-profile QoS_30K
+ maximum-bit-rate-uplink   31
+ maximum-bit-rate-downlink 31
+!
+epg pgw qos-control service-profile QoS_30M
+ maximum-bit-rate-uplink   31710
+ maximum-bit-rate-downlink 31710
+!
+epg pgw qos-control service-profile QoS_330K
+ maximum-bit-rate-uplink   348
+ maximum-bit-rate-downlink 348
+!
+epg pgw qos-control service-profile QoS_3M
+ maximum-bit-rate-uplink   3171
+ maximum-bit-rate-downlink 3171
+!
+epg pgw qos-control service-profile QoS_400K
+ maximum-bit-rate-uplink   422
+ maximum-bit-rate-downlink 422
+!
+epg pgw qos-control service-profile QoS_40K
+ maximum-bit-rate-uplink   42
+ maximum-bit-rate-downlink 42
+!
+epg pgw qos-control service-profile QoS_4M
+ maximum-bit-rate-uplink   4228
+ maximum-bit-rate-downlink 4228
+!
+epg pgw qos-control service-profile QoS_500K
+ maximum-bit-rate-uplink   528
+ maximum-bit-rate-downlink 528
+!
+epg pgw qos-control service-profile QoS_50K
+ maximum-bit-rate-uplink   52
+ maximum-bit-rate-downlink 52
+!
+epg pgw qos-control service-profile QoS_50M
+ maximum-bit-rate-uplink   52850
+ maximum-bit-rate-downlink 52850
+!
+epg pgw qos-control service-profile QoS_512K
+ maximum-bit-rate-uplink   541
+ maximum-bit-rate-downlink 541
+!
+epg pgw qos-control service-profile QoS_5M
+ maximum-bit-rate-uplink   5285
+ maximum-bit-rate-downlink 5285
+!
+epg pgw qos-control service-profile QoS_600K
+ maximum-bit-rate-uplink   634
+ maximum-bit-rate-downlink 634
+!
+epg pgw qos-control service-profile QoS_6M
+ maximum-bit-rate-uplink   6342
+ maximum-bit-rate-downlink 6342
+!
+epg pgw qos-control service-profile QoS_700K
+ maximum-bit-rate-uplink   739
+ maximum-bit-rate-downlink 739
+!
+epg pgw qos-control service-profile QoS_7M
+ maximum-bit-rate-uplink   7399
+ maximum-bit-rate-downlink 7399
+!
+epg pgw qos-control service-profile QoS_800K
+ maximum-bit-rate-uplink   845
+ maximum-bit-rate-downlink 845
+!
+epg pgw qos-control service-profile QoS_8M
+ maximum-bit-rate-uplink   8456
+ maximum-bit-rate-downlink 8456
+!
+epg pgw qos-control service-profile QoS_900K
+ maximum-bit-rate-uplink   951
+ maximum-bit-rate-downlink 951
+!
+epg pgw qos-control service-profile QoS_9M
+ maximum-bit-rate-uplink   9513
+ maximum-bit-rate-downlink 9513
+!

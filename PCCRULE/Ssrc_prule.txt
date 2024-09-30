@@ -1,0 +1,2018 @@
+  path              /pcupe:user-plane/pcuppr:predefined-rules
+  access-operations create,read,update,delete
+  action            permit
+  context           *
+ !
+  path              /pcupe:user-plane/pcuppr:predefined-rules
+  access-operations read
+  action            permit
+  context           *
+ !
+user-plane predefined-rules predefined-rule 101_ACT
+ enabled         true
+ predefined-pdrs [ 1 30311 30312 30313 30314 30315 30316 30317 30318 30319 30320 30321 30322 30323 30324 311 312 313 314 315 316 317 318 319 320 321 322 323 324 35001 35002 35004 35005 35006 35007 35008 35009 35010 35011 35012 35013 35014 35015 35016 35017 35018 35019 35020 35021 35022 35023 35024 35025 35026 35027 35028 35029 35030 35031 35032 35033 35034 35035 35036 35037 35038 35039 35040 35041 35042 35043 35044 35045 35046 35047 35048 35049 35050 35051 35052 35053 35054 35055 35056 35057 35058 35059 35060 35061 35062 35063 35064 35065 35066 35067 35068 35069 35070 35071 35072 35073 35074 35075 35076 35077 35078 35079 35080 35081 35082 35083 35084 35085 35086 35087 35088 35089 35090 35091 35092 35093 35094 35095 35096 35097 35098 35099 35100 35101 35102 35103 35104 35105 35106 35107 35801 35802 5001 5002 5004 5005 5006 5007 5008 5009 5010 5011 5012 5013 5014 5015 5016 5017 5018 5019 5020 5021 5022 5023 5024 5025 5026 5027 5028 5029 5030 5031 5032 5033 5034 5035 5036 5037 5038 5039 5040 5041 5042 5043 5044 5045 5046 5047 5048 5049 5050 5051 5052 5053 5054 5055 5056 5057 5058 5059 5060 5061 5062 5063 5064 5065 5066 5067 5068 5069 5070 5071 5072 5073 5074 5075 5076 5077 5078 5079 5080 5081 5082 5083 5084 5085 5086 5087 5088 5089 5090 5091 5092 5093 5094 5095 5096 5097 5098 5099 5100 5101 5102 5103 5104 5105 5106 5107 55 55555 56 5801 5802 75 76 ]
+!
+user-plane predefined-rules predefined-rule 101_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 201_ACT
+ enabled         true
+ predefined-pdrs [ 1 11001 11002 11003 11004 11005 205 206 302 303 55 55555 56 56666 7001 7002 7003 7004 7005 7006 7007 7008 7009 7010 7011 7012 7013 7014 7015 7016 7017 7018 7019 7020 7021 7022 7023 7024 7025 7026 7027 7028 7029 7030 7031 7032 7033 7034 7035 7036 7037 7038 7039 7040 7041 7042 7043 7044 7045 7046 7047 7048 7049 7050 7051 7052 7053 7054 7055 7056 7057 7058 7059 7060 7061 7062 7063 7064 7065 7066 7067 7068 7069 7070 7071 7072 7073 7074 7075 7076 7077 7078 7079 7080 7081 7082 7083 7084 7085 7086 7087 7088 7089 7090 7091 7092 7093 7094 7095 7096 7097 7098 7099 7100 7101 7102 7103 7104 7105 7106 7107 7108 7109 7110 7111 7112 7113 7114 7115 7116 7117 7118 7119 7120 7121 7122 7123 7124 7125 7126 7127 7128 7129 7130 7131 7132 7133 7134 7135 7136 7137 7138 7139 7140 7141 7142 7143 7144 7145 7146 7147 7148 7149 7150 7151 7152 7153 7154 7155 7156 7157 7158 7159 7160 7161 7162 7163 7164 7165 7166 7167 7168 7169 7170 7171 7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 7183 7184 7185 7186 7187 7188 7189 7190 7191 7192 7193 7194 7195 7196 7197 7198 7199 7200 7201 7202 7203 7204 7205 7206 7207 7208 7209 7210 7211 7212 7213 7214 7215 7216 7217 7218 7219 7220 7221 7222 7223 7224 7225 7226 7227 7228 7229 7230 7231 7232 7233 7234 7235 7236 7237 7238 7239 7240 7241 7242 7243 7244 7245 7246 7247 7248 7249 7250 7251 7252 7253 7254 7255 7256 7257 7258 7259 7260 7261 7262 7263 7264 7265 7266 7267 7268 7269 7270 7271 7272 7273 7274 7275 7276 7277 7278 7279 7280 7281 7282 7283 7284 7285 7286 7287 7288 7289 7290 7291 7292 7293 7294 7295 7296 7297 7298 7299 7300 7301 7302 7303 7304 7305 7306 7307 7308 7309 7310 7311 7312 7313 75 76 ]
+!
+user-plane predefined-rules predefined-rule 201_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 201_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 201_NoQoS
+ enabled         true
+ predefined-pdrs [ 327 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_10M_RM
+ enabled         true
+ predefined-pdrs [ 65226 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_15M_RM
+ enabled         true
+ predefined-pdrs [ 65227 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_1M_RM
+ enabled         true
+ predefined-pdrs [ 65221 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_20M_RM
+ enabled         true
+ predefined-pdrs [ 65228 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_2M_RM
+ enabled         true
+ predefined-pdrs [ 65222 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_4M_RM
+ enabled         true
+ predefined-pdrs [ 65223 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_6M_RM
+ enabled         true
+ predefined-pdrs [ 65224 ]
+!
+user-plane predefined-rules predefined-rule 201_QoS_8M_RM
+ enabled         true
+ predefined-pdrs [ 65225 ]
+!
+user-plane predefined-rules predefined-rule 301_100K
+ enabled         true
+ predefined-pdrs [ 329 56666 ]
+!
+user-plane predefined-rules predefined-rule 301_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 301_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 301_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 302_200K
+ enabled         true
+ predefined-pdrs [ 333 56666 ]
+!
+user-plane predefined-rules predefined-rule 302_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 302_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 302_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 303_300K
+ enabled         true
+ predefined-pdrs [ 335 56666 ]
+!
+user-plane predefined-rules predefined-rule 303_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 303_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 303_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 304_400K
+ enabled         true
+ predefined-pdrs [ 337 56666 ]
+!
+user-plane predefined-rules predefined-rule 304_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 304_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 304_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 305_500K
+ enabled         true
+ predefined-pdrs [ 339 56666 ]
+!
+user-plane predefined-rules predefined-rule 305_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 305_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 305_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 306_600K
+ enabled         true
+ predefined-pdrs [ 341 56666 ]
+!
+user-plane predefined-rules predefined-rule 306_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 306_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 306_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 307_700K
+ enabled         true
+ predefined-pdrs [ 343 56666 ]
+!
+user-plane predefined-rules predefined-rule 307_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 307_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 307_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 308_800K
+ enabled         true
+ predefined-pdrs [ 345 56666 ]
+!
+user-plane predefined-rules predefined-rule 308_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 308_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 308_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 309_900K
+ enabled         true
+ predefined-pdrs [ 347 56666 ]
+!
+user-plane predefined-rules predefined-rule 309_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 309_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 309_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 310_1K
+ enabled         true
+ predefined-pdrs [ 359 56666 ]
+!
+user-plane predefined-rules predefined-rule 310_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 310_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 310_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 311_1M
+ enabled         true
+ predefined-pdrs [ 360 56666 ]
+!
+user-plane predefined-rules predefined-rule 311_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 311_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 311_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 312_2M
+ enabled         true
+ predefined-pdrs [ 356 56666 ]
+!
+user-plane predefined-rules predefined-rule 312_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 312_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 312_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 313_3M
+ enabled         true
+ predefined-pdrs [ 371 56666 ]
+!
+user-plane predefined-rules predefined-rule 313_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 313_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 313_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 314_5M
+ enabled         true
+ predefined-pdrs [ 357 56666 ]
+!
+user-plane predefined-rules predefined-rule 314_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 314_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 314_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 315_6M
+ enabled         true
+ predefined-pdrs [ 362 56666 ]
+!
+user-plane predefined-rules predefined-rule 315_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 315_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 315_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 316_7M
+ enabled         true
+ predefined-pdrs [ 363 56666 ]
+!
+user-plane predefined-rules predefined-rule 316_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 316_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 316_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 317_8M
+ enabled         true
+ predefined-pdrs [ 364 56666 ]
+!
+user-plane predefined-rules predefined-rule 317_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 317_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 317_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 318_9M
+ enabled         true
+ predefined-pdrs [ 365 56666 ]
+!
+user-plane predefined-rules predefined-rule 318_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 318_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 318_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 319_10M
+ enabled         true
+ predefined-pdrs [ 358 56666 ]
+!
+user-plane predefined-rules predefined-rule 319_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 319_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 319_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 320_16M
+ enabled         true
+ predefined-pdrs [ 368 56666 ]
+!
+user-plane predefined-rules predefined-rule 320_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 320_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 320_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 321_20M
+ enabled         true
+ predefined-pdrs [ 370 56666 ]
+!
+user-plane predefined-rules predefined-rule 321_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 321_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 321_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 322_4M
+ enabled         true
+ predefined-pdrs [ 372 56666 ]
+!
+user-plane predefined-rules predefined-rule 322_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 322_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 322_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 323_0K
+ enabled         true
+ predefined-pdrs [ 374 56666 ]
+!
+user-plane predefined-rules predefined-rule 323_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 323_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 323_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 324_1200K
+ enabled         true
+ predefined-pdrs [ 373 56666 ]
+!
+user-plane predefined-rules predefined-rule 324_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 324_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 324_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 325_0K
+ enabled         true
+ predefined-pdrs [ 374 56666 ]
+!
+user-plane predefined-rules predefined-rule 325_ACT
+ enabled         true
+ predefined-pdrs [ 1 30320 320 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 325_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 325_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 326_30M
+ enabled         true
+ predefined-pdrs [ 376 56666 ]
+!
+user-plane predefined-rules predefined-rule 326_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 326_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 326_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 327_10K
+ enabled         true
+ predefined-pdrs [ 377 56666 ]
+!
+user-plane predefined-rules predefined-rule 327_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 327_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 327_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 328_30K
+ enabled         true
+ predefined-pdrs [ 378 56666 ]
+!
+user-plane predefined-rules predefined-rule 328_ACT
+ enabled         true
+ predefined-pdrs [ 1 55 55555 56 75 76 ]
+!
+user-plane predefined-rules predefined-rule 328_DEACT
+ enabled         true
+ predefined-pdrs [ 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 328_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 41_READDR
+ enabled         true
+ predefined-pdrs [ 41 ]
+!
+user-plane predefined-rules predefined-rule 42_READDR
+ enabled         true
+ predefined-pdrs [ 42 ]
+!
+user-plane predefined-rules predefined-rule 46_READDR
+ enabled         true
+ predefined-pdrs [ 46 ]
+!
+user-plane predefined-rules predefined-rule 47_READDR
+ enabled         true
+ predefined-pdrs [ 47 ]
+!
+user-plane predefined-rules predefined-rule 501_ACT
+ enabled         true
+ predefined-pdrs [ 1011 1012 1013 1014 1021 1022 1023 1024 1025 1026 31011 31012 31013 31014 31021 31022 31023 31024 31025 31026 34001 34002 34003 34004 34005 34006 34007 34008 34009 34010 34011 34012 34013 34014 34015 34016 34017 34018 34019 34020 34021 34022 34023 34024 34025 34026 34027 34028 34029 34030 34031 34032 34033 34034 34035 34036 34037 34038 34039 34040 34041 34042 34043 34044 34045 34046 34047 34048 34049 34050 34051 34052 34053 34054 34055 34056 34057 34058 34059 34060 34061 34062 34063 34064 34065 34066 34067 34068 34069 34070 34071 34072 34073 34074 34075 34076 34077 34078 34079 34080 34081 34082 34083 34084 34085 34086 34087 34088 34089 34090 34091 34092 34093 34094 34095 34096 34097 34098 34099 34100 34101 34102 34103 34104 34105 34106 34107 34108 34109 34110 34111 34112 34113 34114 34115 34116 34117 34118 34119 34120 34121 34122 34123 34124 34125 34126 34127 34781 4001 4002 4003 4004 4005 4006 4007 4008 4009 4010 4011 4012 4013 4014 4015 4016 4017 4018 4019 4020 4021 4022 4023 4024 4025 4026 4027 4028 4029 4030 4031 4032 4033 4034 4035 4036 4037 4038 4039 4040 4041 4042 4043 4044 4045 4046 4047 4048 4049 4050 4051 4052 4053 4054 4055 4056 4057 4058 4059 4060 4061 4062 4063 4064 4065 4066 4067 4068 4069 4070 4071 4072 4073 4074 4075 4076 4077 4078 4079 4080 4081 4082 4083 4084 4085 4086 4087 4088 4089 4090 4091 4092 4093 4094 4095 4096 4097 4098 4099 4100 4101 4102 4103 4104 4105 4106 4107 4108 4109 4110 4111 4112 4113 4114 4115 4116 4117 4118 4119 4120 4121 4122 4123 4124 4125 4126 4127 4781 55555 ]
+!
+user-plane predefined-rules predefined-rule 501_DEACT
+ enabled         true
+ predefined-pdrs [ 1032 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 501_DUMMY
+ enabled         true
+ predefined-pdrs [ 65534 ]
+!
+user-plane predefined-rules predefined-rule 51_READDR
+ enabled         true
+ predefined-pdrs [ 51 ]
+!
+user-plane predefined-rules predefined-rule 52_READDR
+ enabled         true
+ predefined-pdrs [ 52 ]
+!
+user-plane predefined-rules predefined-rule 601_ACT
+ enabled         true
+ predefined-pdrs [ 1016 1017 1018 1019 31016 31017 31018 31019 34801 34802 34803 34804 34805 34806 34807 34808 34809 34810 34811 34812 34813 34814 34815 34816 34817 34981 4801 4802 4803 4804 4805 4806 4807 4808 4809 4810 4811 4812 4813 4814 4815 4816 4817 4818 4981 55555 ]
+!
+user-plane predefined-rules predefined-rule 601_DEACT
+ enabled         true
+ predefined-pdrs [ 1033 2 3 58888 ]
+!
+user-plane predefined-rules predefined-rule 601_DUMMY
+ enabled         true
+ predefined-pdrs [ 65535 ]
+!
+user-plane predefined-rules predefined-rule 6021_1260_400K
+ enabled         true
+ predefined-pdrs [ 36021 6021 ]
+!
+user-plane predefined-rules predefined-rule 6022_1260_NoQoS
+ enabled         true
+ predefined-pdrs [ 36022 6022 ]
+!
+user-plane predefined-rules predefined-rule 6023_1263_400K
+ enabled         true
+ predefined-pdrs [ 36023 6023 ]
+!
+user-plane predefined-rules predefined-rule 6024_1263_NoQoS
+ enabled         true
+ predefined-pdrs [ 36024 6024 ]
+!
+user-plane predefined-rules predefined-rule 6025_1217_400K
+ enabled         true
+ predefined-pdrs [ 36025 6025 ]
+!
+user-plane predefined-rules predefined-rule 6026_1217_NoQoS
+ enabled         true
+ predefined-pdrs [ 36026 6026 ]
+!
+user-plane predefined-rules predefined-rule 6027_1217_400K_1
+ enabled         true
+ predefined-pdrs [ 36027 6027 ]
+!
+user-plane predefined-rules predefined-rule 6028_1217_NoQoS_1
+ enabled         true
+ predefined-pdrs [ 36028 6028 ]
+!
+user-plane predefined-rules predefined-rule 6029_1240_400K
+ enabled         true
+ predefined-pdrs [ 36029 6029 ]
+!
+user-plane predefined-rules predefined-rule 6030_1240_3M
+ enabled         true
+ predefined-pdrs [ 36030 6030 ]
+!
+user-plane predefined-rules predefined-rule 6031_1240_5M
+ enabled         true
+ predefined-pdrs [ 36031 6031 ]
+!
+user-plane predefined-rules predefined-rule 6032_1240_NoQoS
+ enabled         true
+ predefined-pdrs [ 36032 6032 ]
+!
+user-plane predefined-rules predefined-rule 6033_1282_CHD_400K
+ enabled         true
+ predefined-pdrs [ 36033 6033 ]
+!
+user-plane predefined-rules predefined-rule 6034_1282_CHD_NoQoS
+ enabled         true
+ predefined-pdrs [ 36034 6034 ]
+!
+user-plane predefined-rules predefined-rule 6035_1290_400K
+ enabled         true
+ predefined-pdrs [ 36035 6035 ]
+!
+user-plane predefined-rules predefined-rule 6036_1290_3M
+ enabled         true
+ predefined-pdrs [ 36036 6036 ]
+!
+user-plane predefined-rules predefined-rule 6037_1290_NoQoS
+ enabled         true
+ predefined-pdrs [ 36037 6037 ]
+!
+user-plane predefined-rules predefined-rule 6038_1324_400K
+ enabled         true
+ predefined-pdrs [ 36038 6038 ]
+!
+user-plane predefined-rules predefined-rule 6039_1324_3M
+ enabled         true
+ predefined-pdrs [ 36039 6039 ]
+!
+user-plane predefined-rules predefined-rule 6040_1324_NoQoS
+ enabled         true
+ predefined-pdrs [ 36040 6040 ]
+!
+user-plane predefined-rules predefined-rule 6041_1313_3M
+ enabled         true
+ predefined-pdrs [ 36041 6041 ]
+!
+user-plane predefined-rules predefined-rule 6042_1313_NoQoS
+ enabled         true
+ predefined-pdrs [ 36042 6042 ]
+!
+user-plane predefined-rules predefined-rule 6043_1326_1M
+ enabled         true
+ predefined-pdrs [ 36043 6043 ]
+!
+user-plane predefined-rules predefined-rule 6044_1326_NoQoS
+ enabled         true
+ predefined-pdrs [ 36044 6044 ]
+!
+user-plane predefined-rules predefined-rule 6045_1326_1M_1
+ enabled         true
+ predefined-pdrs [ 36045 6045 ]
+!
+user-plane predefined-rules predefined-rule 6046_1326_NoQoS_1
+ enabled         true
+ predefined-pdrs [ 36046 6046 ]
+!
+user-plane predefined-rules predefined-rule 6047_1326_1M_2
+ enabled         true
+ predefined-pdrs [ 36047 6047 ]
+!
+user-plane predefined-rules predefined-rule 6048_1326_NoQoS_2
+ enabled         true
+ predefined-pdrs [ 36048 6048 ]
+!
+user-plane predefined-rules predefined-rule 6049_1332_1M
+ enabled         true
+ predefined-pdrs [ 36049 6049 ]
+!
+user-plane predefined-rules predefined-rule 6050_1332_NoQoS
+ enabled         true
+ predefined-pdrs [ 36050 6050 ]
+!
+user-plane predefined-rules predefined-rule 6051_1318_1M
+ enabled         true
+ predefined-pdrs [ 36051 6051 ]
+!
+user-plane predefined-rules predefined-rule 6052_1318_NoQoS
+ enabled         true
+ predefined-pdrs [ 36052 6052 ]
+!
+user-plane predefined-rules predefined-rule 6053_1318_1M_1
+ enabled         true
+ predefined-pdrs [ 36053 6053 ]
+!
+user-plane predefined-rules predefined-rule 6054_1318_NoQoS_1
+ enabled         true
+ predefined-pdrs [ 36054 6054 ]
+!
+user-plane predefined-rules predefined-rule 6055_1296_3M
+ enabled         true
+ predefined-pdrs [ 36055 6055 ]
+!
+user-plane predefined-rules predefined-rule 6056_1296_NoQoS
+ enabled         true
+ predefined-pdrs [ 36056 6056 ]
+!
+user-plane predefined-rules predefined-rule 6057_1274_400K
+ enabled         true
+ predefined-pdrs [ 36057 6057 ]
+!
+user-plane predefined-rules predefined-rule 6058_1274_NoQoS
+ enabled         true
+ predefined-pdrs [ 36058 6058 ]
+!
+user-plane predefined-rules predefined-rule 6059_1274_400K_1
+ enabled         true
+ predefined-pdrs [ 36059 6059 ]
+!
+user-plane predefined-rules predefined-rule 6060_1276_400K
+ enabled         true
+ predefined-pdrs [ 36060 6060 ]
+!
+user-plane predefined-rules predefined-rule 6061_1276_NoQoS
+ enabled         true
+ predefined-pdrs [ 36061 6061 ]
+!
+user-plane predefined-rules predefined-rule 6062_1277_400K
+ enabled         true
+ predefined-pdrs [ 36062 6062 ]
+!
+user-plane predefined-rules predefined-rule 6063_1277_NoQoS
+ enabled         true
+ predefined-pdrs [ 36063 6063 ]
+!
+user-plane predefined-rules predefined-rule 6064_1277_400K_1
+ enabled         true
+ predefined-pdrs [ 36064 6064 ]
+!
+user-plane predefined-rules predefined-rule 6065_1277_NoQoS_1
+ enabled         true
+ predefined-pdrs [ 36065 6065 ]
+!
+user-plane predefined-rules predefined-rule 6066_1254_400K
+ enabled         true
+ predefined-pdrs [ 36066 6066 ]
+!
+user-plane predefined-rules predefined-rule 6067_1254_NoQoS
+ enabled         true
+ predefined-pdrs [ 36067 6067 ]
+!
+user-plane predefined-rules predefined-rule 6068_1328_400K
+ enabled         true
+ predefined-pdrs [ 36068 6068 ]
+!
+user-plane predefined-rules predefined-rule 6069_1328_1M
+ enabled         true
+ predefined-pdrs [ 36069 6069 ]
+!
+user-plane predefined-rules predefined-rule 6070_1328_3M
+ enabled         true
+ predefined-pdrs [ 36070 6070 ]
+!
+user-plane predefined-rules predefined-rule 6071_1328_5M
+ enabled         true
+ predefined-pdrs [ 36071 6071 ]
+!
+user-plane predefined-rules predefined-rule 6072_1328_7M
+ enabled         true
+ predefined-pdrs [ 36072 6072 ]
+!
+user-plane predefined-rules predefined-rule 6073_1328_NoQoS
+ enabled         true
+ predefined-pdrs [ 36073 6073 ]
+!
+user-plane predefined-rules predefined-rule 6074_1284_400K
+ enabled         true
+ predefined-pdrs [ 36074 6074 ]
+!
+user-plane predefined-rules predefined-rule 6075_1284_NoQoS
+ enabled         true
+ predefined-pdrs [ 36075 6075 ]
+!
+user-plane predefined-rules predefined-rule 6076_1295_400K
+ enabled         true
+ predefined-pdrs [ 36076 6076 ]
+!
+user-plane predefined-rules predefined-rule 6077_1295_NoQoS
+ enabled         true
+ predefined-pdrs [ 36077 6077 ]
+!
+user-plane predefined-rules predefined-rule 6078_1270_400K
+ enabled         true
+ predefined-pdrs [ 36078 6078 ]
+!
+user-plane predefined-rules predefined-rule 6079_1270_NoQoS
+ enabled         true
+ predefined-pdrs [ 36079 6079 ]
+!
+user-plane predefined-rules predefined-rule 6080_1358_1K
+ enabled         true
+ predefined-pdrs [ 36080 6080 ]
+!
+user-plane predefined-rules predefined-rule 6081_1358_400K
+ enabled         true
+ predefined-pdrs [ 36081 6081 ]
+!
+user-plane predefined-rules predefined-rule 6082_1358_1M
+ enabled         true
+ predefined-pdrs [ 36082 6082 ]
+!
+user-plane predefined-rules predefined-rule 6083_1358_3M
+ enabled         true
+ predefined-pdrs [ 36083 6083 ]
+!
+user-plane predefined-rules predefined-rule 6084_1358_5M
+ enabled         true
+ predefined-pdrs [ 36084 6084 ]
+!
+user-plane predefined-rules predefined-rule 6085_1358_7M
+ enabled         true
+ predefined-pdrs [ 36085 6085 ]
+!
+user-plane predefined-rules predefined-rule 6086_1358_10M
+ enabled         true
+ predefined-pdrs [ 36086 6086 ]
+!
+user-plane predefined-rules predefined-rule 6087_1358_NoQoS
+ enabled         true
+ predefined-pdrs [ 36087 6087 ]
+!
+user-plane predefined-rules predefined-rule 6088_1359_1K
+ enabled         true
+ predefined-pdrs [ 36088 6088 ]
+!
+user-plane predefined-rules predefined-rule 6089_1359_400K
+ enabled         true
+ predefined-pdrs [ 36089 6089 ]
+!
+user-plane predefined-rules predefined-rule 6090_1359_1M
+ enabled         true
+ predefined-pdrs [ 36090 6090 ]
+!
+user-plane predefined-rules predefined-rule 6091_1359_3M
+ enabled         true
+ predefined-pdrs [ 36091 6091 ]
+!
+user-plane predefined-rules predefined-rule 6092_1359_5M
+ enabled         true
+ predefined-pdrs [ 36092 6092 ]
+!
+user-plane predefined-rules predefined-rule 6093_1359_7M
+ enabled         true
+ predefined-pdrs [ 36093 6093 ]
+!
+user-plane predefined-rules predefined-rule 6094_1359_10M
+ enabled         true
+ predefined-pdrs [ 36094 6094 ]
+!
+user-plane predefined-rules predefined-rule 6095_1359_NoQoS
+ enabled         true
+ predefined-pdrs [ 36095 6095 ]
+!
+user-plane predefined-rules predefined-rule 6096_1362_1K
+ enabled         true
+ predefined-pdrs [ 36096 6096 ]
+!
+user-plane predefined-rules predefined-rule 6097_1362_400K
+ enabled         true
+ predefined-pdrs [ 36097 6097 ]
+!
+user-plane predefined-rules predefined-rule 6098_1362_1M
+ enabled         true
+ predefined-pdrs [ 36098 6098 ]
+!
+user-plane predefined-rules predefined-rule 6099_1362_3M
+ enabled         true
+ predefined-pdrs [ 36099 6099 ]
+!
+user-plane predefined-rules predefined-rule 6100_1362_5M
+ enabled         true
+ predefined-pdrs [ 36100 6100 ]
+!
+user-plane predefined-rules predefined-rule 6101_1362_7M
+ enabled         true
+ predefined-pdrs [ 36101 6101 ]
+!
+user-plane predefined-rules predefined-rule 6102_1362_10M
+ enabled         true
+ predefined-pdrs [ 36102 6102 ]
+!
+user-plane predefined-rules predefined-rule 6103_1362_NoQoS
+ enabled         true
+ predefined-pdrs [ 36103 6103 ]
+!
+user-plane predefined-rules predefined-rule 6104_1371_1K
+ enabled         true
+ predefined-pdrs [ 36104 6104 ]
+!
+user-plane predefined-rules predefined-rule 6105_1371_400K
+ enabled         true
+ predefined-pdrs [ 36105 6105 ]
+!
+user-plane predefined-rules predefined-rule 6106_1371_1M
+ enabled         true
+ predefined-pdrs [ 36106 6106 ]
+!
+user-plane predefined-rules predefined-rule 6107_1371_3M
+ enabled         true
+ predefined-pdrs [ 36107 6107 ]
+!
+user-plane predefined-rules predefined-rule 6108_1371_5M
+ enabled         true
+ predefined-pdrs [ 36108 6108 ]
+!
+user-plane predefined-rules predefined-rule 6109_1371_7M
+ enabled         true
+ predefined-pdrs [ 36109 6109 ]
+!
+user-plane predefined-rules predefined-rule 6110_1371_10M
+ enabled         true
+ predefined-pdrs [ 36110 6110 ]
+!
+user-plane predefined-rules predefined-rule 6111_1371_NoQoS
+ enabled         true
+ predefined-pdrs [ 36111 6111 ]
+!
+user-plane predefined-rules predefined-rule 6112_4501_1K
+ enabled         true
+ predefined-pdrs [ 36112 6112 ]
+!
+user-plane predefined-rules predefined-rule 6113_4501_400K
+ enabled         true
+ predefined-pdrs [ 36113 6113 ]
+!
+user-plane predefined-rules predefined-rule 6114_4501_1M
+ enabled         true
+ predefined-pdrs [ 36114 6114 ]
+!
+user-plane predefined-rules predefined-rule 6115_4501_3M
+ enabled         true
+ predefined-pdrs [ 36115 6115 ]
+!
+user-plane predefined-rules predefined-rule 6116_4501_5M
+ enabled         true
+ predefined-pdrs [ 36116 6116 ]
+!
+user-plane predefined-rules predefined-rule 6117_4501_7M
+ enabled         true
+ predefined-pdrs [ 36117 6117 ]
+!
+user-plane predefined-rules predefined-rule 6118_4501_10M
+ enabled         true
+ predefined-pdrs [ 36118 6118 ]
+!
+user-plane predefined-rules predefined-rule 6119_4501_NoQoS
+ enabled         true
+ predefined-pdrs [ 36119 6119 ]
+!
+user-plane predefined-rules predefined-rule 6120_4502_1K
+ enabled         true
+ predefined-pdrs [ 36120 6120 ]
+!
+user-plane predefined-rules predefined-rule 6121_4502_400K
+ enabled         true
+ predefined-pdrs [ 36121 6121 ]
+!
+user-plane predefined-rules predefined-rule 6122_4502_1M
+ enabled         true
+ predefined-pdrs [ 36122 6122 ]
+!
+user-plane predefined-rules predefined-rule 6123_4502_3M
+ enabled         true
+ predefined-pdrs [ 36123 6123 ]
+!
+user-plane predefined-rules predefined-rule 6124_4502_5M
+ enabled         true
+ predefined-pdrs [ 36124 6124 ]
+!
+user-plane predefined-rules predefined-rule 6125_4502_7M
+ enabled         true
+ predefined-pdrs [ 36125 6125 ]
+!
+user-plane predefined-rules predefined-rule 6126_4502_10M
+ enabled         true
+ predefined-pdrs [ 36126 6126 ]
+!
+user-plane predefined-rules predefined-rule 6127_4502_NoQoS
+ enabled         true
+ predefined-pdrs [ 36127 6127 ]
+!
+user-plane predefined-rules predefined-rule 6128_4503_1K
+ enabled         true
+ predefined-pdrs [ 36128 6128 ]
+!
+user-plane predefined-rules predefined-rule 6129_4503_400K
+ enabled         true
+ predefined-pdrs [ 36129 6129 ]
+!
+user-plane predefined-rules predefined-rule 6130_4503_1M
+ enabled         true
+ predefined-pdrs [ 36130 6130 ]
+!
+user-plane predefined-rules predefined-rule 6131_4503_3M
+ enabled         true
+ predefined-pdrs [ 36131 6131 ]
+!
+user-plane predefined-rules predefined-rule 6132_4503_5M
+ enabled         true
+ predefined-pdrs [ 36132 6132 ]
+!
+user-plane predefined-rules predefined-rule 6133_4503_7M
+ enabled         true
+ predefined-pdrs [ 36133 6133 ]
+!
+user-plane predefined-rules predefined-rule 6134_4503_10M
+ enabled         true
+ predefined-pdrs [ 36134 6134 ]
+!
+user-plane predefined-rules predefined-rule 6135_4503_NoQoS
+ enabled         true
+ predefined-pdrs [ 36135 6135 ]
+!
+user-plane predefined-rules predefined-rule 6136_4504_1K
+ enabled         true
+ predefined-pdrs [ 36136 6136 ]
+!
+user-plane predefined-rules predefined-rule 6137_4504_400K
+ enabled         true
+ predefined-pdrs [ 36137 6137 ]
+!
+user-plane predefined-rules predefined-rule 6138_4504_1M
+ enabled         true
+ predefined-pdrs [ 36138 6138 ]
+!
+user-plane predefined-rules predefined-rule 6139_4504_3M
+ enabled         true
+ predefined-pdrs [ 36139 6139 ]
+!
+user-plane predefined-rules predefined-rule 6140_4504_5M
+ enabled         true
+ predefined-pdrs [ 36140 6140 ]
+!
+user-plane predefined-rules predefined-rule 6141_4504_7M
+ enabled         true
+ predefined-pdrs [ 36141 6141 ]
+!
+user-plane predefined-rules predefined-rule 6142_4504_10M
+ enabled         true
+ predefined-pdrs [ 36142 6142 ]
+!
+user-plane predefined-rules predefined-rule 6143_4504_NoQoS
+ enabled         true
+ predefined-pdrs [ 36143 6143 ]
+!
+user-plane predefined-rules predefined-rule 6144_4505_1K
+ enabled         true
+ predefined-pdrs [ 36144 6144 ]
+!
+user-plane predefined-rules predefined-rule 6145_4505_400K
+ enabled         true
+ predefined-pdrs [ 36145 6145 ]
+!
+user-plane predefined-rules predefined-rule 6146_4505_1M
+ enabled         true
+ predefined-pdrs [ 36146 6146 ]
+!
+user-plane predefined-rules predefined-rule 6147_4505_3M
+ enabled         true
+ predefined-pdrs [ 36147 6147 ]
+!
+user-plane predefined-rules predefined-rule 6148_4505_5M
+ enabled         true
+ predefined-pdrs [ 36148 6148 ]
+!
+user-plane predefined-rules predefined-rule 6149_4505_7M
+ enabled         true
+ predefined-pdrs [ 36149 6149 ]
+!
+user-plane predefined-rules predefined-rule 6150_4505_10M
+ enabled         true
+ predefined-pdrs [ 36150 6150 ]
+!
+user-plane predefined-rules predefined-rule 6151_4505_NoQoS
+ enabled         true
+ predefined-pdrs [ 36151 6151 ]
+!
+user-plane predefined-rules predefined-rule 6152_4506_1K
+ enabled         true
+ predefined-pdrs [ 36152 6152 ]
+!
+user-plane predefined-rules predefined-rule 6153_4506_400K
+ enabled         true
+ predefined-pdrs [ 36153 6153 ]
+!
+user-plane predefined-rules predefined-rule 6154_4506_1M
+ enabled         true
+ predefined-pdrs [ 36154 6154 ]
+!
+user-plane predefined-rules predefined-rule 6155_4506_3M
+ enabled         true
+ predefined-pdrs [ 36155 6155 ]
+!
+user-plane predefined-rules predefined-rule 6156_4506_5M
+ enabled         true
+ predefined-pdrs [ 36156 6156 ]
+!
+user-plane predefined-rules predefined-rule 6157_4506_7M
+ enabled         true
+ predefined-pdrs [ 36157 6157 ]
+!
+user-plane predefined-rules predefined-rule 6158_4506_10M
+ enabled         true
+ predefined-pdrs [ 36158 6158 ]
+!
+user-plane predefined-rules predefined-rule 6159_4506_NoQoS
+ enabled         true
+ predefined-pdrs [ 36159 6159 ]
+!
+user-plane predefined-rules predefined-rule 6160_4507_1K
+ enabled         true
+ predefined-pdrs [ 36160 6160 ]
+!
+user-plane predefined-rules predefined-rule 6161_4507_400K
+ enabled         true
+ predefined-pdrs [ 36161 6161 ]
+!
+user-plane predefined-rules predefined-rule 6162_4507_1M
+ enabled         true
+ predefined-pdrs [ 36162 6162 ]
+!
+user-plane predefined-rules predefined-rule 6163_4507_3M
+ enabled         true
+ predefined-pdrs [ 36163 6163 ]
+!
+user-plane predefined-rules predefined-rule 6164_4507_5M
+ enabled         true
+ predefined-pdrs [ 36164 6164 ]
+!
+user-plane predefined-rules predefined-rule 6165_4507_7M
+ enabled         true
+ predefined-pdrs [ 36165 6165 ]
+!
+user-plane predefined-rules predefined-rule 6166_4507_10M
+ enabled         true
+ predefined-pdrs [ 36166 6166 ]
+!
+user-plane predefined-rules predefined-rule 6167_4507_NoQoS
+ enabled         true
+ predefined-pdrs [ 36167 6167 ]
+!
+user-plane predefined-rules predefined-rule 6168_4508_1K
+ enabled         true
+ predefined-pdrs [ 36168 6168 ]
+!
+user-plane predefined-rules predefined-rule 6169_4508_400K
+ enabled         true
+ predefined-pdrs [ 36169 6169 ]
+!
+user-plane predefined-rules predefined-rule 6170_4508_1M
+ enabled         true
+ predefined-pdrs [ 36170 6170 ]
+!
+user-plane predefined-rules predefined-rule 6171_4508_3M
+ enabled         true
+ predefined-pdrs [ 36171 6171 ]
+!
+user-plane predefined-rules predefined-rule 6172_4508_5M
+ enabled         true
+ predefined-pdrs [ 36172 6172 ]
+!
+user-plane predefined-rules predefined-rule 6173_4508_7M
+ enabled         true
+ predefined-pdrs [ 36173 6173 ]
+!
+user-plane predefined-rules predefined-rule 6174_4508_10M
+ enabled         true
+ predefined-pdrs [ 36174 6174 ]
+!
+user-plane predefined-rules predefined-rule 6175_4508_NoQoS
+ enabled         true
+ predefined-pdrs [ 36175 6175 ]
+!
+user-plane predefined-rules predefined-rule 6176_4509_1K
+ enabled         true
+ predefined-pdrs [ 36176 6176 ]
+!
+user-plane predefined-rules predefined-rule 6177_4509_400K
+ enabled         true
+ predefined-pdrs [ 36177 6177 ]
+!
+user-plane predefined-rules predefined-rule 6178_4509_1M
+ enabled         true
+ predefined-pdrs [ 36178 6178 ]
+!
+user-plane predefined-rules predefined-rule 6179_4509_3M
+ enabled         true
+ predefined-pdrs [ 36179 6179 ]
+!
+user-plane predefined-rules predefined-rule 6180_4509_5M
+ enabled         true
+ predefined-pdrs [ 36180 6180 ]
+!
+user-plane predefined-rules predefined-rule 6181_4509_7M
+ enabled         true
+ predefined-pdrs [ 36181 6181 ]
+!
+user-plane predefined-rules predefined-rule 6182_4509_10M
+ enabled         true
+ predefined-pdrs [ 36182 6182 ]
+!
+user-plane predefined-rules predefined-rule 6183_4509_NoQoS
+ enabled         true
+ predefined-pdrs [ 36183 6183 ]
+!
+user-plane predefined-rules predefined-rule 6184_4510_1K
+ enabled         true
+ predefined-pdrs [ 36184 6184 ]
+!
+user-plane predefined-rules predefined-rule 6185_4510_400K
+ enabled         true
+ predefined-pdrs [ 36185 6185 ]
+!
+user-plane predefined-rules predefined-rule 6186_4510_1M
+ enabled         true
+ predefined-pdrs [ 36186 6186 ]
+!
+user-plane predefined-rules predefined-rule 6187_4510_3M
+ enabled         true
+ predefined-pdrs [ 36187 6187 ]
+!
+user-plane predefined-rules predefined-rule 6188_4510_5M
+ enabled         true
+ predefined-pdrs [ 36188 6188 ]
+!
+user-plane predefined-rules predefined-rule 6189_4510_7M
+ enabled         true
+ predefined-pdrs [ 36189 6189 ]
+!
+user-plane predefined-rules predefined-rule 6190_4510_10M
+ enabled         true
+ predefined-pdrs [ 36190 6190 ]
+!
+user-plane predefined-rules predefined-rule 6191_4510_NoQoS
+ enabled         true
+ predefined-pdrs [ 36191 6191 ]
+!
+user-plane predefined-rules predefined-rule 6192_5001_1K
+ enabled         true
+ predefined-pdrs [ 36192 6192 ]
+!
+user-plane predefined-rules predefined-rule 6193_5001_400K
+ enabled         true
+ predefined-pdrs [ 36193 6193 ]
+!
+user-plane predefined-rules predefined-rule 6194_5001_1M
+ enabled         true
+ predefined-pdrs [ 36194 6194 ]
+!
+user-plane predefined-rules predefined-rule 6195_5001_3M
+ enabled         true
+ predefined-pdrs [ 36195 6195 ]
+!
+user-plane predefined-rules predefined-rule 6196_5001_5M
+ enabled         true
+ predefined-pdrs [ 36196 6196 ]
+!
+user-plane predefined-rules predefined-rule 6197_5001_7M
+ enabled         true
+ predefined-pdrs [ 36197 6197 ]
+!
+user-plane predefined-rules predefined-rule 6198_5001_10M
+ enabled         true
+ predefined-pdrs [ 36198 6198 ]
+!
+user-plane predefined-rules predefined-rule 6199_5001_NoQoS
+ enabled         true
+ predefined-pdrs [ 36199 6199 ]
+!
+user-plane predefined-rules predefined-rule 6200_5002_1K
+ enabled         true
+ predefined-pdrs [ 36200 6200 ]
+!
+user-plane predefined-rules predefined-rule 6201_5002_400K
+ enabled         true
+ predefined-pdrs [ 36201 6201 ]
+!
+user-plane predefined-rules predefined-rule 6202_5002_1M
+ enabled         true
+ predefined-pdrs [ 36202 6202 ]
+!
+user-plane predefined-rules predefined-rule 6203_5002_3M
+ enabled         true
+ predefined-pdrs [ 36203 6203 ]
+!
+user-plane predefined-rules predefined-rule 6204_5002_5M
+ enabled         true
+ predefined-pdrs [ 36204 6204 ]
+!
+user-plane predefined-rules predefined-rule 6205_5002_7M
+ enabled         true
+ predefined-pdrs [ 36205 6205 ]
+!
+user-plane predefined-rules predefined-rule 6206_5002_10M
+ enabled         true
+ predefined-pdrs [ 36206 6206 ]
+!
+user-plane predefined-rules predefined-rule 6207_5002_NoQoS
+ enabled         true
+ predefined-pdrs [ 36207 6207 ]
+!
+user-plane predefined-rules predefined-rule 6208_5003_1K
+ enabled         true
+ predefined-pdrs [ 36208 6208 ]
+!
+user-plane predefined-rules predefined-rule 6209_5003_400K
+ enabled         true
+ predefined-pdrs [ 36209 6209 ]
+!
+user-plane predefined-rules predefined-rule 6210_5003_1M
+ enabled         true
+ predefined-pdrs [ 36210 6210 ]
+!
+user-plane predefined-rules predefined-rule 6211_5003_3M
+ enabled         true
+ predefined-pdrs [ 36211 6211 ]
+!
+user-plane predefined-rules predefined-rule 6212_5003_5M
+ enabled         true
+ predefined-pdrs [ 36212 6212 ]
+!
+user-plane predefined-rules predefined-rule 6213_5003_7M
+ enabled         true
+ predefined-pdrs [ 36213 6213 ]
+!
+user-plane predefined-rules predefined-rule 6214_5003_10M
+ enabled         true
+ predefined-pdrs [ 36214 6214 ]
+!
+user-plane predefined-rules predefined-rule 6215_5003_NoQoS
+ enabled         true
+ predefined-pdrs [ 36215 6215 ]
+!
+user-plane predefined-rules predefined-rule 6216_5004_1K
+ enabled         true
+ predefined-pdrs [ 36216 6216 ]
+!
+user-plane predefined-rules predefined-rule 6217_5004_400K
+ enabled         true
+ predefined-pdrs [ 36217 6217 ]
+!
+user-plane predefined-rules predefined-rule 6218_5004_1M
+ enabled         true
+ predefined-pdrs [ 36218 6218 ]
+!
+user-plane predefined-rules predefined-rule 6219_5004_3M
+ enabled         true
+ predefined-pdrs [ 36219 6219 ]
+!
+user-plane predefined-rules predefined-rule 6220_5004_5M
+ enabled         true
+ predefined-pdrs [ 36220 6220 ]
+!
+user-plane predefined-rules predefined-rule 6221_5004_7M
+ enabled         true
+ predefined-pdrs [ 36221 6221 ]
+!
+user-plane predefined-rules predefined-rule 6222_5004_10M
+ enabled         true
+ predefined-pdrs [ 36222 6222 ]
+!
+user-plane predefined-rules predefined-rule 6223_5004_NoQoS
+ enabled         true
+ predefined-pdrs [ 36223 6223 ]
+!
+user-plane predefined-rules predefined-rule 6224_5005_1K
+ enabled         true
+ predefined-pdrs [ 36224 6224 ]
+!
+user-plane predefined-rules predefined-rule 6225_5005_400K
+ enabled         true
+ predefined-pdrs [ 36225 6225 ]
+!
+user-plane predefined-rules predefined-rule 6226_5005_1M
+ enabled         true
+ predefined-pdrs [ 36226 6226 ]
+!
+user-plane predefined-rules predefined-rule 6227_5005_3M
+ enabled         true
+ predefined-pdrs [ 36227 6227 ]
+!
+user-plane predefined-rules predefined-rule 6228_5005_5M
+ enabled         true
+ predefined-pdrs [ 36228 6228 ]
+!
+user-plane predefined-rules predefined-rule 6229_5005_7M
+ enabled         true
+ predefined-pdrs [ 36229 6229 ]
+!
+user-plane predefined-rules predefined-rule 6230_5005_10M
+ enabled         true
+ predefined-pdrs [ 36230 6230 ]
+!
+user-plane predefined-rules predefined-rule 6231_5005_NoQoS
+ enabled         true
+ predefined-pdrs [ 36231 6231 ]
+!
+user-plane predefined-rules predefined-rule 6232_5006_1K
+ enabled         true
+ predefined-pdrs [ 36232 6232 ]
+!
+user-plane predefined-rules predefined-rule 6233_5006_400K
+ enabled         true
+ predefined-pdrs [ 36233 6233 ]
+!
+user-plane predefined-rules predefined-rule 6234_5006_1M
+ enabled         true
+ predefined-pdrs [ 36234 6234 ]
+!
+user-plane predefined-rules predefined-rule 6235_5006_3M
+ enabled         true
+ predefined-pdrs [ 36235 6235 ]
+!
+user-plane predefined-rules predefined-rule 6236_5006_5M
+ enabled         true
+ predefined-pdrs [ 36236 6236 ]
+!
+user-plane predefined-rules predefined-rule 6237_5006_7M
+ enabled         true
+ predefined-pdrs [ 36237 6237 ]
+!
+user-plane predefined-rules predefined-rule 6238_5006_10M
+ enabled         true
+ predefined-pdrs [ 36238 6238 ]
+!
+user-plane predefined-rules predefined-rule 6239_5006_NoQoS
+ enabled         true
+ predefined-pdrs [ 36239 6239 ]
+!
+user-plane predefined-rules predefined-rule 6240_5007_1K
+ enabled         true
+ predefined-pdrs [ 36240 6240 ]
+!
+user-plane predefined-rules predefined-rule 6241_5007_400K
+ enabled         true
+ predefined-pdrs [ 36241 6241 ]
+!
+user-plane predefined-rules predefined-rule 6242_5007_1M
+ enabled         true
+ predefined-pdrs [ 36242 6242 ]
+!
+user-plane predefined-rules predefined-rule 6243_5007_3M
+ enabled         true
+ predefined-pdrs [ 36243 6243 ]
+!
+user-plane predefined-rules predefined-rule 6244_5007_5M
+ enabled         true
+ predefined-pdrs [ 36244 6244 ]
+!
+user-plane predefined-rules predefined-rule 6245_5007_7M
+ enabled         true
+ predefined-pdrs [ 36245 6245 ]
+!
+user-plane predefined-rules predefined-rule 6246_5007_10M
+ enabled         true
+ predefined-pdrs [ 36246 6246 ]
+!
+user-plane predefined-rules predefined-rule 6247_5007_NoQoS
+ enabled         true
+ predefined-pdrs [ 36247 6247 ]
+!
+user-plane predefined-rules predefined-rule 6248_5008_1K
+ enabled         true
+ predefined-pdrs [ 36248 6248 ]
+!
+user-plane predefined-rules predefined-rule 6249_5008_400K
+ enabled         true
+ predefined-pdrs [ 36249 6249 ]
+!
+user-plane predefined-rules predefined-rule 6250_5008_1M
+ enabled         true
+ predefined-pdrs [ 36250 6250 ]
+!
+user-plane predefined-rules predefined-rule 6251_5008_3M
+ enabled         true
+ predefined-pdrs [ 36251 6251 ]
+!
+user-plane predefined-rules predefined-rule 6252_5008_5M
+ enabled         true
+ predefined-pdrs [ 36252 6252 ]
+!
+user-plane predefined-rules predefined-rule 6253_5008_7M
+ enabled         true
+ predefined-pdrs [ 36253 6253 ]
+!
+user-plane predefined-rules predefined-rule 6254_5008_10M
+ enabled         true
+ predefined-pdrs [ 36254 6254 ]
+!
+user-plane predefined-rules predefined-rule 6255_5008_NoQoS
+ enabled         true
+ predefined-pdrs [ 36255 6255 ]
+!
+user-plane predefined-rules predefined-rule 6256_5009_1K
+ enabled         true
+ predefined-pdrs [ 36256 6256 ]
+!
+user-plane predefined-rules predefined-rule 6257_5009_400K
+ enabled         true
+ predefined-pdrs [ 36257 6257 ]
+!
+user-plane predefined-rules predefined-rule 6258_5009_1M
+ enabled         true
+ predefined-pdrs [ 36258 6258 ]
+!
+user-plane predefined-rules predefined-rule 6259_5009_3M
+ enabled         true
+ predefined-pdrs [ 36259 6259 ]
+!
+user-plane predefined-rules predefined-rule 6260_5009_5M
+ enabled         true
+ predefined-pdrs [ 36260 6260 ]
+!
+user-plane predefined-rules predefined-rule 6261_5009_7M
+ enabled         true
+ predefined-pdrs [ 36261 6261 ]
+!
+user-plane predefined-rules predefined-rule 6262_5009_10M
+ enabled         true
+ predefined-pdrs [ 36262 6262 ]
+!
+user-plane predefined-rules predefined-rule 6263_5009_NoQoS
+ enabled         true
+ predefined-pdrs [ 36263 6263 ]
+!
+user-plane predefined-rules predefined-rule 6264_5010_1K
+ enabled         true
+ predefined-pdrs [ 36264 6264 ]
+!
+user-plane predefined-rules predefined-rule 6265_5010_400K
+ enabled         true
+ predefined-pdrs [ 36265 6265 ]
+!
+user-plane predefined-rules predefined-rule 6266_5010_1M
+ enabled         true
+ predefined-pdrs [ 36266 6266 ]
+!
+user-plane predefined-rules predefined-rule 6267_5010_3M
+ enabled         true
+ predefined-pdrs [ 36267 6267 ]
+!
+user-plane predefined-rules predefined-rule 6268_5010_5M
+ enabled         true
+ predefined-pdrs [ 36268 6268 ]
+!
+user-plane predefined-rules predefined-rule 6269_5010_7M
+ enabled         true
+ predefined-pdrs [ 36269 6269 ]
+!
+user-plane predefined-rules predefined-rule 6270_5010_10M
+ enabled         true
+ predefined-pdrs [ 36270 6270 ]
+!
+user-plane predefined-rules predefined-rule 6271_5010_NoQoS
+ enabled         true
+ predefined-pdrs [ 36271 6271 ]
+!
+user-plane predefined-rules predefined-rule 6272_5011_1K
+ enabled         true
+ predefined-pdrs [ 36272 6272 ]
+!
+user-plane predefined-rules predefined-rule 6273_5011_400K
+ enabled         true
+ predefined-pdrs [ 36273 6273 ]
+!
+user-plane predefined-rules predefined-rule 6274_5011_1M
+ enabled         true
+ predefined-pdrs [ 36274 6274 ]
+!
+user-plane predefined-rules predefined-rule 6275_5011_3M
+ enabled         true
+ predefined-pdrs [ 36275 6275 ]
+!
+user-plane predefined-rules predefined-rule 6276_5011_5M
+ enabled         true
+ predefined-pdrs [ 36276 6276 ]
+!
+user-plane predefined-rules predefined-rule 6277_5011_7M
+ enabled         true
+ predefined-pdrs [ 36277 6277 ]
+!
+user-plane predefined-rules predefined-rule 6278_5011_10M
+ enabled         true
+ predefined-pdrs [ 36278 6278 ]
+!
+user-plane predefined-rules predefined-rule 6279_5011_NoQoS
+ enabled         true
+ predefined-pdrs [ 36279 6279 ]
+!
+user-plane predefined-rules predefined-rule 6280_5012_1K
+ enabled         true
+ predefined-pdrs [ 36280 6280 ]
+!
+user-plane predefined-rules predefined-rule 6281_5012_400K
+ enabled         true
+ predefined-pdrs [ 36281 6281 ]
+!
+user-plane predefined-rules predefined-rule 6282_5012_1M
+ enabled         true
+ predefined-pdrs [ 36282 6282 ]
+!
+user-plane predefined-rules predefined-rule 6283_5012_3M
+ enabled         true
+ predefined-pdrs [ 36283 6283 ]
+!
+user-plane predefined-rules predefined-rule 6284_5012_5M
+ enabled         true
+ predefined-pdrs [ 36284 6284 ]
+!
+user-plane predefined-rules predefined-rule 6285_5012_7M
+ enabled         true
+ predefined-pdrs [ 36285 6285 ]
+!
+user-plane predefined-rules predefined-rule 6286_5012_10M
+ enabled         true
+ predefined-pdrs [ 36286 6286 ]
+!
+user-plane predefined-rules predefined-rule 6287_5012_NoQoS
+ enabled         true
+ predefined-pdrs [ 36287 6287 ]
+!
+user-plane predefined-rules predefined-rule 6288_5013_1K
+ enabled         true
+ predefined-pdrs [ 36288 6288 ]
+!
+user-plane predefined-rules predefined-rule 6289_5013_400K
+ enabled         true
+ predefined-pdrs [ 36289 6289 ]
+!
+user-plane predefined-rules predefined-rule 6290_5013_1M
+ enabled         true
+ predefined-pdrs [ 36290 6290 ]
+!
+user-plane predefined-rules predefined-rule 6291_5013_3M
+ enabled         true
+ predefined-pdrs [ 36291 6291 ]
+!
+user-plane predefined-rules predefined-rule 6292_5013_5M
+ enabled         true
+ predefined-pdrs [ 36292 6292 ]
+!
+user-plane predefined-rules predefined-rule 6293_5013_7M
+ enabled         true
+ predefined-pdrs [ 36293 6293 ]
+!
+user-plane predefined-rules predefined-rule 6294_5013_10M
+ enabled         true
+ predefined-pdrs [ 36294 6294 ]
+!
+user-plane predefined-rules predefined-rule 6295_5013_NoQoS
+ enabled         true
+ predefined-pdrs [ 36295 6295 ]
+!
+user-plane predefined-rules predefined-rule 6296_5014_1K
+ enabled         true
+ predefined-pdrs [ 36296 6296 ]
+!
+user-plane predefined-rules predefined-rule 6297_5014_400K
+ enabled         true
+ predefined-pdrs [ 36297 6297 ]
+!
+user-plane predefined-rules predefined-rule 6298_5014_1M
+ enabled         true
+ predefined-pdrs [ 36298 6298 ]
+!
+user-plane predefined-rules predefined-rule 6299_5014_3M
+ enabled         true
+ predefined-pdrs [ 36299 6299 ]
+!
+user-plane predefined-rules predefined-rule 6300_5014_5M
+ enabled         true
+ predefined-pdrs [ 36300 6300 ]
+!
+user-plane predefined-rules predefined-rule 6301_5014_7M
+ enabled         true
+ predefined-pdrs [ 36301 6301 ]
+!
+user-plane predefined-rules predefined-rule 6302_5014_10M
+ enabled         true
+ predefined-pdrs [ 36302 6302 ]
+!
+user-plane predefined-rules predefined-rule 6303_5014_NoQoS
+ enabled         true
+ predefined-pdrs [ 36303 6303 ]
+!
+user-plane predefined-rules predefined-rule 6304_5015_1K
+ enabled         true
+ predefined-pdrs [ 36304 6304 ]
+!
+user-plane predefined-rules predefined-rule 6305_5015_400K
+ enabled         true
+ predefined-pdrs [ 36305 6305 ]
+!
+user-plane predefined-rules predefined-rule 6306_5015_1M
+ enabled         true
+ predefined-pdrs [ 36306 6306 ]
+!
+user-plane predefined-rules predefined-rule 6307_5015_3M
+ enabled         true
+ predefined-pdrs [ 36307 6307 ]
+!
+user-plane predefined-rules predefined-rule 6308_5015_5M
+ enabled         true
+ predefined-pdrs [ 36308 6308 ]
+!
+user-plane predefined-rules predefined-rule 6309_5015_7M
+ enabled         true
+ predefined-pdrs [ 36309 6309 ]
+!
+user-plane predefined-rules predefined-rule 6310_5015_10M
+ enabled         true
+ predefined-pdrs [ 36310 6310 ]
+!
+user-plane predefined-rules predefined-rule 6311_5015_NoQoS
+ enabled         true
+ predefined-pdrs [ 36311 6311 ]
+!
+user-plane predefined-rules predefined-rule 6312_5016_1K
+ enabled         true
+ predefined-pdrs [ 36312 6312 ]
+!
+user-plane predefined-rules predefined-rule 6313_5016_400K
+ enabled         true
+ predefined-pdrs [ 36313 6313 ]
+!
+user-plane predefined-rules predefined-rule 6314_5016_1M
+ enabled         true
+ predefined-pdrs [ 36314 6314 ]
+!
+user-plane predefined-rules predefined-rule 6315_5016_3M
+ enabled         true
+ predefined-pdrs [ 36315 6315 ]
+!
+user-plane predefined-rules predefined-rule 6316_5016_5M
+ enabled         true
+ predefined-pdrs [ 36316 6316 ]
+!
+user-plane predefined-rules predefined-rule 6317_5016_7M
+ enabled         true
+ predefined-pdrs [ 36317 6317 ]
+!
+user-plane predefined-rules predefined-rule 6318_5016_10M
+ enabled         true
+ predefined-pdrs [ 36318 6318 ]
+!
+user-plane predefined-rules predefined-rule 6319_5016_NoQoS
+ enabled         true
+ predefined-pdrs [ 36319 6319 ]
+!
+user-plane predefined-rules predefined-rule 6320_5017_1K
+ enabled         true
+ predefined-pdrs [ 36320 6320 ]
+!
+user-plane predefined-rules predefined-rule 6321_5017_400K
+ enabled         true
+ predefined-pdrs [ 36321 6321 ]
+!
+user-plane predefined-rules predefined-rule 6322_5017_1M
+ enabled         true
+ predefined-pdrs [ 36322 6322 ]
+!
+user-plane predefined-rules predefined-rule 6323_5017_3M
+ enabled         true
+ predefined-pdrs [ 36323 6323 ]
+!
+user-plane predefined-rules predefined-rule 6324_5017_5M
+ enabled         true
+ predefined-pdrs [ 36324 6324 ]
+!
+user-plane predefined-rules predefined-rule 6325_5017_7M
+ enabled         true
+ predefined-pdrs [ 36325 6325 ]
+!
+user-plane predefined-rules predefined-rule 6326_5017_10M
+ enabled         true
+ predefined-pdrs [ 36326 6326 ]
+!
+user-plane predefined-rules predefined-rule 6327_5017_NoQoS
+ enabled         true
+ predefined-pdrs [ 36327 6327 ]
+!
+user-plane predefined-rules predefined-rule 6328_5018_1K
+ enabled         true
+ predefined-pdrs [ 36328 6328 ]
+!
+user-plane predefined-rules predefined-rule 6329_5018_400K
+ enabled         true
+ predefined-pdrs [ 36329 6329 ]
+!
+user-plane predefined-rules predefined-rule 6330_5018_1M
+ enabled         true
+ predefined-pdrs [ 36330 6330 ]
+!
+user-plane predefined-rules predefined-rule 6331_5018_3M
+ enabled         true
+ predefined-pdrs [ 36331 6331 ]
+!
+user-plane predefined-rules predefined-rule 6332_5018_5M
+ enabled         true
+ predefined-pdrs [ 36332 6332 ]
+!
+user-plane predefined-rules predefined-rule 6333_5018_7M
+ enabled         true
+ predefined-pdrs [ 36333 6333 ]
+!
+user-plane predefined-rules predefined-rule 6334_5018_10M
+ enabled         true
+ predefined-pdrs [ 36334 6334 ]
+!
+user-plane predefined-rules predefined-rule 6335_5018_NoQoS
+ enabled         true
+ predefined-pdrs [ 36335 6335 ]
+!
+user-plane predefined-rules predefined-rule 6336_5019_1K
+ enabled         true
+ predefined-pdrs [ 36336 6336 ]
+!
+user-plane predefined-rules predefined-rule 6337_5019_400K
+ enabled         true
+ predefined-pdrs [ 36337 6337 ]
+!
+user-plane predefined-rules predefined-rule 6338_5019_1M
+ enabled         true
+ predefined-pdrs [ 36338 6338 ]
+!
+user-plane predefined-rules predefined-rule 6339_5019_3M
+ enabled         true
+ predefined-pdrs [ 36339 6339 ]
+!
+user-plane predefined-rules predefined-rule 6340_5019_5M
+ enabled         true
+ predefined-pdrs [ 36340 6340 ]
+!
+user-plane predefined-rules predefined-rule 6341_5019_7M
+ enabled         true
+ predefined-pdrs [ 36341 6341 ]
+!
+user-plane predefined-rules predefined-rule 6342_5019_10M
+ enabled         true
+ predefined-pdrs [ 36342 6342 ]
+!
+user-plane predefined-rules predefined-rule 6343_5019_NoQoS
+ enabled         true
+ predefined-pdrs [ 36343 6343 ]
+!
+user-plane predefined-rules predefined-rule 6344_5020_1K
+ enabled         true
+ predefined-pdrs [ 36344 6344 ]
+!
+user-plane predefined-rules predefined-rule 6345_5020_400K
+ enabled         true
+ predefined-pdrs [ 36345 6345 ]
+!
+user-plane predefined-rules predefined-rule 6346_5020_1M
+ enabled         true
+ predefined-pdrs [ 36346 6346 ]
+!
+user-plane predefined-rules predefined-rule 6347_5020_3M
+ enabled         true
+ predefined-pdrs [ 36347 6347 ]
+!
+user-plane predefined-rules predefined-rule 6348_5020_5M
+ enabled         true
+ predefined-pdrs [ 36348 6348 ]
+!
+user-plane predefined-rules predefined-rule 6349_5020_7M
+ enabled         true
+ predefined-pdrs [ 36349 6349 ]
+!
+user-plane predefined-rules predefined-rule 6350_5020_10M
+ enabled         true
+ predefined-pdrs [ 36350 6350 ]
+!
+user-plane predefined-rules predefined-rule 6351_5020_NoQoS
+ enabled         true
+ predefined-pdrs [ 36351 6351 ]
+!
+user-plane predefined-rules predefined-rule 6782_1313_10M
+ enabled         true
+ predefined-pdrs [ 36782 6782 ]
+!
+user-plane predefined-rules predefined-rule 6783_1324_400K_1
+ enabled         true
+ predefined-pdrs [ 36783 6783 ]
+!
+user-plane predefined-rules predefined-rule 6784_1324_3M_1
+ enabled         true
+ predefined-pdrs [ 36784 6784 ]
+!
+user-plane predefined-rules predefined-rule 6785_1324_NoQoS_1
+ enabled         true
+ predefined-pdrs [ 36785 6785 ]
+!
+user-plane predefined-rules predefined-rule 6786_1324_400K_2
+ enabled         true
+ predefined-pdrs [ 36786 6786 ]
+!
+user-plane predefined-rules predefined-rule 6787_1324_3M_2
+ enabled         true
+ predefined-pdrs [ 36787 6787 ]
+!
+user-plane predefined-rules predefined-rule 6788_1324_NoQoS_2
+ enabled         true
+ predefined-pdrs [ 36788 6788 ]
+!
+user-plane predefined-rules predefined-rule 6789_1277_400K_2
+ enabled         true
+ predefined-pdrs [ 36789 6789 ]
+!
+user-plane predefined-rules predefined-rule 6790_1277_NoQoS_2
+ enabled         true
+ predefined-pdrs [ 36790 6790 ]
+!
+user-plane predefined-rules predefined-rule 6791_1023_1K
+ enabled         true
+ predefined-pdrs [ 36791 6791 ]
+!
+user-plane predefined-rules predefined-rule 6792_1023_NoQoS
+ enabled         true
+ predefined-pdrs [ 36792 6792 ]
+!
+user-plane predefined-rules predefined-rule 6793_1339_1K
+ enabled         true
+ predefined-pdrs [ 36793 6793 ]
+!
+user-plane predefined-rules predefined-rule 6794_1339_NoQoS
+ enabled         true
+ predefined-pdrs [ 36794 6794 ]
+!
+user-plane predefined-rules predefined-rule 6795_1274_3M
+ enabled         true
+ predefined-pdrs [ 36795 6795 ]
+!
+user-plane predefined-rules predefined-rule 6796_1328_10M
+ enabled         true
+ predefined-pdrs [ 36796 6796 ]
+!
+user-plane predefined-rules predefined-rule 6797_1213_1K
+ enabled         true
+ predefined-pdrs [ 36797 6797 ]
+!
+user-plane predefined-rules predefined-rule 6798_1213_400K
+ enabled         true
+ predefined-pdrs [ 36798 6798 ]
+!
+user-plane predefined-rules predefined-rule 6799_1213_3M
+ enabled         true
+ predefined-pdrs [ 36799 6799 ]
+!
+user-plane predefined-rules predefined-rule 6800_1213_NoQoS
+ enabled         true
+ predefined-pdrs [ 36800 6800 ]
+!
+user-plane predefined-rules predefined-rule 6801_4504_3M_1
+ enabled         true
+ predefined-pdrs [ 36801 6801 ]
+!
+user-plane predefined-rules predefined-rule 6802_4504_NoQoS_1
+ enabled         true
+ predefined-pdrs [ 36802 6802 ]
+!
+user-plane predefined-rules predefined-rule 6803_1324_3M_3
+ enabled         true
+ predefined-pdrs [ 36803 6803 ]
+!
+user-plane predefined-rules predefined-rule 6804_1324_NoQoS_3
+ enabled         true
+ predefined-pdrs [ 36804 6804 ]
+!
+user-plane predefined-rules predefined-rule 6805_1329_10M
+ enabled         true
+ predefined-pdrs [ 36805 6805 ]
+!
+user-plane predefined-rules predefined-rule 6806_1329_1K
+ enabled         true
+ predefined-pdrs [ 36806 6806 ]
+!
+user-plane predefined-rules predefined-rule 6807_1329_1M
+ enabled         true
+ predefined-pdrs [ 36807 6807 ]
+!
+user-plane predefined-rules predefined-rule 6808_1329_3M
+ enabled         true
+ predefined-pdrs [ 36808 6808 ]
+!
+user-plane predefined-rules predefined-rule 6809_1329_400K
+ enabled         true
+ predefined-pdrs [ 36809 6809 ]
+!
+user-plane predefined-rules predefined-rule 6810_1329_5M
+ enabled         true
+ predefined-pdrs [ 36810 6810 ]
+!
+user-plane predefined-rules predefined-rule 6811_1329_7M
+ enabled         true
+ predefined-pdrs [ 36811 6811 ]
+!
+user-plane predefined-rules predefined-rule 6812_1329_NoQoS
+ enabled         true
+ predefined-pdrs [ 36812 6812 ]
+!
+user-plane predefined-rules predefined-rule 71_READDR
+ enabled         true
+ predefined-pdrs [ 71 ]
+!
+user-plane predefined-rules predefined-rule 72_READDR
+ enabled         true
+ predefined-pdrs [ 72 ]
+!

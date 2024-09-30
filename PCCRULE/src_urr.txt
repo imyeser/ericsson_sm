@@ -1,0 +1,2402 @@
+epg pgw user-plane predefined-rule profile DATA_URR_Profile
+ rating-group 0
+  offline-urr-id 20000
+  service-id 1001
+   offline-urr-id 21001
+  !
+  service-id 1002
+   offline-urr-id 21002
+  !
+  service-id 1003
+   offline-urr-id 21003
+  !
+  service-id 1005
+   offline-urr-id 21005
+  !
+  service-id 1006
+   offline-urr-id 21006
+  !
+  service-id 1009
+   offline-urr-id 21009
+  !
+  service-id 1010
+   offline-urr-id 21010
+  !
+  service-id 1011
+   offline-urr-id 21011
+  !
+  service-id 1012
+   offline-urr-id 21012
+  !
+  service-id 1014
+   offline-urr-id 21014
+  !
+  service-id 1016
+   offline-urr-id 21016
+  !
+  service-id 1019
+   offline-urr-id 21019
+  !
+  service-id 1021
+   offline-urr-id 21021
+  !
+  service-id 1022
+   offline-urr-id 21022
+  !
+  service-id 1023
+   offline-urr-id 21023
+  !
+  service-id 1024
+   offline-urr-id 21024
+  !
+  service-id 1028
+   offline-urr-id 21028
+  !
+  service-id 1029
+   offline-urr-id 21029
+  !
+  service-id 1030
+   offline-urr-id 21030
+  !
+  service-id 1035
+   offline-urr-id 21035
+  !
+  service-id 1040
+   offline-urr-id 21040
+  !
+  service-id 1041
+   offline-urr-id 21041
+  !
+  service-id 1042
+   offline-urr-id 21042
+  !
+  service-id 1043
+   offline-urr-id 21043
+  !
+  service-id 1044
+   offline-urr-id 21044
+  !
+  service-id 1045
+   offline-urr-id 21045
+  !
+  service-id 1046
+   offline-urr-id 21046
+  !
+  service-id 1047
+   offline-urr-id 21047
+  !
+  service-id 1048
+   offline-urr-id 21048
+  !
+  service-id 1105
+   offline-urr-id 21105
+  !
+  service-id 1107
+   offline-urr-id 21107
+  !
+  service-id 1110
+   offline-urr-id 21110
+  !
+  service-id 1116
+   offline-urr-id 21116
+  !
+  service-id 1117
+   offline-urr-id 21117
+  !
+  service-id 1125
+   offline-urr-id 21125
+  !
+  service-id 1127
+   offline-urr-id 21127
+  !
+  service-id 1132
+   offline-urr-id 21132
+  !
+  service-id 1135
+   offline-urr-id 21135
+  !
+  service-id 1138
+   offline-urr-id 21138
+  !
+  service-id 1144
+   offline-urr-id 21144
+  !
+  service-id 1157
+   offline-urr-id 21157
+  !
+  service-id 1164
+   offline-urr-id 21164
+  !
+  service-id 1165
+   offline-urr-id 21165
+  !
+  service-id 1166
+   offline-urr-id 21166
+  !
+  service-id 1169
+   offline-urr-id 21169
+  !
+  service-id 1171
+   offline-urr-id 21171
+  !
+  service-id 1174
+   offline-urr-id 21174
+  !
+  service-id 1178
+   offline-urr-id 21178
+  !
+  service-id 1179
+   offline-urr-id 21179
+  !
+  service-id 1181
+   offline-urr-id 21181
+  !
+  service-id 1183
+   offline-urr-id 21183
+  !
+  service-id 1185
+   offline-urr-id 21185
+  !
+  service-id 1191
+   offline-urr-id 21191
+  !
+  service-id 1195
+   offline-urr-id 21195
+  !
+  service-id 1197
+   offline-urr-id 21197
+  !
+  service-id 1198
+   offline-urr-id 21198
+  !
+  service-id 1203
+   offline-urr-id 21203
+  !
+  service-id 1206
+   offline-urr-id 21206
+  !
+  service-id 1208
+   offline-urr-id 21208
+  !
+  service-id 1210
+   offline-urr-id 21210
+  !
+  service-id 1213
+   offline-urr-id 21213
+  !
+  service-id 1216
+   offline-urr-id 21216
+  !
+  service-id 1217
+   offline-urr-id 21217
+  !
+  service-id 1222
+   offline-urr-id 21222
+  !
+  service-id 1223
+   offline-urr-id 21223
+  !
+  service-id 1226
+   offline-urr-id 21226
+  !
+  service-id 1227
+   offline-urr-id 21227
+  !
+  service-id 1228
+   offline-urr-id 21228
+  !
+  service-id 1240
+   offline-urr-id 21240
+  !
+  service-id 1247
+   offline-urr-id 21247
+  !
+  service-id 1248
+   offline-urr-id 21248
+  !
+  service-id 1249
+   offline-urr-id 21249
+  !
+  service-id 1253
+   offline-urr-id 21253
+  !
+  service-id 1254
+   offline-urr-id 21254
+  !
+  service-id 1260
+   offline-urr-id 21260
+  !
+  service-id 1262
+   offline-urr-id 21262
+  !
+  service-id 1263
+   offline-urr-id 21263
+  !
+  service-id 1265
+   offline-urr-id 21265
+  !
+  service-id 1269
+   offline-urr-id 21269
+  !
+  service-id 1270
+   offline-urr-id 21270
+  !
+  service-id 1273
+   offline-urr-id 21273
+  !
+  service-id 1274
+   offline-urr-id 21274
+  !
+  service-id 1275
+   offline-urr-id 21275
+  !
+  service-id 1276
+   offline-urr-id 21276
+  !
+  service-id 1277
+   offline-urr-id 21277
+  !
+  service-id 1278
+   offline-urr-id 21278
+  !
+  service-id 1279
+   offline-urr-id 21279
+  !
+  service-id 1280
+   offline-urr-id 21280
+  !
+  service-id 1281
+   offline-urr-id 21281
+  !
+  service-id 1282
+   offline-urr-id 21282
+  !
+  service-id 1283
+   offline-urr-id 21283
+  !
+  service-id 1284
+   offline-urr-id 21284
+  !
+  service-id 1285
+   offline-urr-id 21285
+  !
+  service-id 1286
+   offline-urr-id 21286
+  !
+  service-id 1287
+   offline-urr-id 21287
+  !
+  service-id 1288
+   offline-urr-id 21288
+  !
+  service-id 1290
+   offline-urr-id 21290
+  !
+  service-id 1291
+   offline-urr-id 21291
+  !
+  service-id 1292
+   offline-urr-id 21292
+  !
+  service-id 1293
+   offline-urr-id 21293
+  !
+  service-id 1294
+   offline-urr-id 21294
+  !
+  service-id 1295
+   offline-urr-id 21295
+  !
+  service-id 1296
+   offline-urr-id 21296
+  !
+  service-id 1301
+   offline-urr-id 21301
+  !
+  service-id 1303
+   offline-urr-id 21303
+  !
+  service-id 1305
+   offline-urr-id 21305
+  !
+  service-id 1307
+   offline-urr-id 21307
+  !
+  service-id 1308
+   offline-urr-id 21308
+  !
+  service-id 1309
+   offline-urr-id 21309
+  !
+  service-id 1311
+   offline-urr-id 21311
+  !
+  service-id 1312
+   offline-urr-id 21312
+  !
+  service-id 1313
+   offline-urr-id 21313
+  !
+  service-id 1314
+   offline-urr-id 21314
+  !
+  service-id 1315
+   offline-urr-id 21315
+  !
+  service-id 1316
+   offline-urr-id 21316
+  !
+  service-id 1317
+   offline-urr-id 21317
+  !
+  service-id 1318
+   offline-urr-id 21318
+  !
+  service-id 1319
+   offline-urr-id 21319
+  !
+  service-id 1320
+   offline-urr-id 21320
+  !
+  service-id 1322
+   offline-urr-id 21322
+  !
+  service-id 1323
+   offline-urr-id 21323
+  !
+  service-id 1324
+   offline-urr-id 21324
+  !
+  service-id 1326
+   offline-urr-id 21326
+  !
+  service-id 1327
+   offline-urr-id 21327
+  !
+  service-id 1328
+   offline-urr-id 21328
+  !
+  service-id 1329
+   offline-urr-id 21329
+  !
+  service-id 1330
+   offline-urr-id 21330
+  !
+  service-id 1331
+   offline-urr-id 21331
+  !
+  service-id 1332
+   offline-urr-id 21332
+  !
+  service-id 1334
+   offline-urr-id 21334
+  !
+  service-id 1335
+   offline-urr-id 21335
+  !
+  service-id 1338
+   offline-urr-id 21338
+  !
+  service-id 1339
+   offline-urr-id 21339
+  !
+  service-id 1340
+   offline-urr-id 21340
+  !
+  service-id 1341
+   offline-urr-id 21341
+  !
+  service-id 1342
+   offline-urr-id 21342
+  !
+  service-id 1343
+   offline-urr-id 21343
+  !
+  service-id 1344
+   offline-urr-id 21344
+  !
+  service-id 1345
+   offline-urr-id 21345
+  !
+  service-id 1346
+   offline-urr-id 21346
+  !
+  service-id 1347
+   offline-urr-id 21347
+  !
+  service-id 1348
+   offline-urr-id 21348
+  !
+  service-id 1349
+   offline-urr-id 21349
+  !
+  service-id 1350
+   offline-urr-id 21350
+  !
+  service-id 1351
+   offline-urr-id 21351
+  !
+  service-id 1352
+   offline-urr-id 21352
+  !
+  service-id 1353
+   offline-urr-id 21353
+  !
+  service-id 1354
+   offline-urr-id 21354
+  !
+  service-id 1355
+   offline-urr-id 21355
+  !
+  service-id 1356
+   offline-urr-id 21356
+  !
+  service-id 1357
+   offline-urr-id 21357
+  !
+  service-id 1358
+   offline-urr-id 21358
+  !
+  service-id 1359
+   offline-urr-id 21359
+  !
+  service-id 1360
+   offline-urr-id 21360
+  !
+  service-id 1361
+   offline-urr-id 21361
+  !
+  service-id 1362
+   offline-urr-id 21362
+  !
+  service-id 1363
+   offline-urr-id 21363
+  !
+  service-id 1364
+   offline-urr-id 21364
+  !
+  service-id 1365
+   offline-urr-id 21365
+  !
+  service-id 1366
+   offline-urr-id 21366
+  !
+  service-id 1367
+   offline-urr-id 21367
+  !
+  service-id 1368
+   offline-urr-id 21368
+  !
+  service-id 1369
+   offline-urr-id 21369
+  !
+  service-id 1370
+   offline-urr-id 21370
+  !
+  service-id 1371
+   offline-urr-id 21371
+  !
+  service-id 1373
+   offline-urr-id 21373
+  !
+  service-id 3001
+   offline-urr-id 23001
+  !
+  service-id 3002
+   offline-urr-id 23002
+  !
+  service-id 3003
+   offline-urr-id 23003
+  !
+  service-id 3004
+   offline-urr-id 23004
+  !
+  service-id 3005
+   offline-urr-id 23005
+  !
+  service-id 3006
+   offline-urr-id 23006
+  !
+  service-id 3007
+   offline-urr-id 23007
+  !
+  service-id 3008
+   offline-urr-id 23008
+  !
+  service-id 3009
+   offline-urr-id 23009
+  !
+  service-id 3010
+   offline-urr-id 23010
+  !
+  service-id 3501
+   offline-urr-id 23501
+  !
+  service-id 3502
+   offline-urr-id 23502
+  !
+  service-id 3503
+   offline-urr-id 23503
+  !
+  service-id 3504
+   offline-urr-id 23504
+  !
+  service-id 3505
+   offline-urr-id 23505
+  !
+  service-id 3506
+   offline-urr-id 23506
+  !
+  service-id 3507
+   offline-urr-id 23507
+  !
+  service-id 3508
+   offline-urr-id 23508
+  !
+  service-id 3509
+   offline-urr-id 23509
+  !
+  service-id 3510
+   offline-urr-id 23510
+  !
+  service-id 3511
+   offline-urr-id 23511
+  !
+  service-id 3512
+   offline-urr-id 23512
+  !
+  service-id 3513
+   offline-urr-id 23513
+  !
+  service-id 3514
+   offline-urr-id 23514
+  !
+  service-id 3515
+   offline-urr-id 23515
+  !
+  service-id 3516
+   offline-urr-id 23516
+  !
+  service-id 3517
+   offline-urr-id 23517
+  !
+  service-id 3518
+   offline-urr-id 23518
+  !
+  service-id 3519
+   offline-urr-id 23519
+  !
+  service-id 3520
+   offline-urr-id 23520
+  !
+  service-id 3521
+   offline-urr-id 23521
+  !
+  service-id 3522
+   offline-urr-id 23522
+  !
+  service-id 3523
+   offline-urr-id 23523
+  !
+  service-id 3524
+   offline-urr-id 23524
+  !
+  service-id 3525
+   offline-urr-id 23525
+  !
+  service-id 3526
+   offline-urr-id 23526
+  !
+  service-id 3527
+   offline-urr-id 23527
+  !
+  service-id 3528
+   offline-urr-id 23528
+  !
+  service-id 3529
+   offline-urr-id 23529
+  !
+  service-id 3530
+   offline-urr-id 23530
+  !
+  service-id 3531
+   offline-urr-id 23531
+  !
+  service-id 3532
+   offline-urr-id 23532
+  !
+  service-id 3533
+   offline-urr-id 23533
+  !
+  service-id 3534
+   offline-urr-id 23534
+  !
+  service-id 3535
+   offline-urr-id 23535
+  !
+  service-id 3536
+   offline-urr-id 23536
+  !
+  service-id 3537
+   offline-urr-id 23537
+  !
+  service-id 3538
+   offline-urr-id 23538
+  !
+  service-id 3539
+   offline-urr-id 23539
+  !
+  service-id 3540
+   offline-urr-id 23540
+  !
+  service-id 4001
+   offline-urr-id 24001
+  !
+  service-id 4002
+   offline-urr-id 24002
+  !
+  service-id 4003
+   offline-urr-id 24003
+  !
+  service-id 4004
+   offline-urr-id 24004
+  !
+  service-id 4005
+   offline-urr-id 24005
+  !
+  service-id 4006
+   offline-urr-id 24006
+  !
+  service-id 4007
+   offline-urr-id 24007
+  !
+  service-id 4008
+   offline-urr-id 24008
+  !
+  service-id 4009
+   offline-urr-id 24009
+  !
+  service-id 4010
+   offline-urr-id 24010
+  !
+  service-id 4501
+   offline-urr-id 24501
+  !
+  service-id 4502
+   offline-urr-id 24502
+  !
+  service-id 4503
+   offline-urr-id 24503
+  !
+  service-id 4504
+   offline-urr-id 24504
+  !
+  service-id 4505
+   offline-urr-id 24505
+  !
+  service-id 4506
+   offline-urr-id 24506
+  !
+  service-id 4507
+   offline-urr-id 24507
+  !
+  service-id 4508
+   offline-urr-id 24508
+  !
+  service-id 4509
+   offline-urr-id 24509
+  !
+  service-id 4510
+   offline-urr-id 24510
+  !
+  service-id 5001
+   offline-urr-id 25001
+  !
+  service-id 5002
+   offline-urr-id 25002
+  !
+  service-id 5003
+   offline-urr-id 25003
+  !
+  service-id 5004
+   offline-urr-id 25004
+  !
+  service-id 5005
+   offline-urr-id 25005
+  !
+  service-id 5006
+   offline-urr-id 25006
+  !
+  service-id 5007
+   offline-urr-id 25007
+  !
+  service-id 5008
+   offline-urr-id 25008
+  !
+  service-id 5009
+   offline-urr-id 25009
+  !
+  service-id 5010
+   offline-urr-id 25010
+  !
+  service-id 5011
+   offline-urr-id 25011
+  !
+  service-id 5012
+   offline-urr-id 25012
+  !
+  service-id 5013
+   offline-urr-id 25013
+  !
+  service-id 5014
+   offline-urr-id 25014
+  !
+  service-id 5015
+   offline-urr-id 25015
+  !
+  service-id 5016
+   offline-urr-id 25016
+  !
+  service-id 5017
+   offline-urr-id 25017
+  !
+  service-id 5018
+   offline-urr-id 25018
+  !
+  service-id 5019
+   offline-urr-id 25019
+  !
+  service-id 5020
+   offline-urr-id 25020
+  !
+  service-id 5501
+   offline-urr-id 25501
+  !
+  service-id 5502
+   offline-urr-id 25502
+  !
+  service-id 5503
+   offline-urr-id 25503
+  !
+  service-id 5504
+   offline-urr-id 25504
+  !
+  service-id 5505
+   offline-urr-id 25505
+  !
+  service-id 5506
+   offline-urr-id 25506
+  !
+  service-id 5507
+   offline-urr-id 25507
+  !
+  service-id 5508
+   offline-urr-id 25508
+  !
+  service-id 5509
+   offline-urr-id 25509
+  !
+  service-id 5510
+   offline-urr-id 25510
+  !
+  service-id 5511
+   offline-urr-id 25511
+  !
+  service-id 5512
+   offline-urr-id 25512
+  !
+  service-id 5513
+   offline-urr-id 25513
+  !
+  service-id 5514
+   offline-urr-id 25514
+  !
+  service-id 5515
+   offline-urr-id 25515
+  !
+  service-id 5516
+   offline-urr-id 25516
+  !
+  service-id 5517
+   offline-urr-id 25517
+  !
+  service-id 5518
+   offline-urr-id 25518
+  !
+  service-id 5519
+   offline-urr-id 25519
+  !
+  service-id 5520
+   offline-urr-id 25520
+  !
+  service-id 5555
+   offline-urr-id 25555
+  !
+  service-id 6001
+   offline-urr-id 26001
+  !
+  service-id 6002
+   offline-urr-id 26002
+  !
+  service-id 6003
+   offline-urr-id 26003
+  !
+  service-id 6004
+   offline-urr-id 26004
+  !
+  service-id 6005
+   offline-urr-id 26005
+  !
+  service-id 6006
+   offline-urr-id 26006
+  !
+  service-id 6007
+   offline-urr-id 26007
+  !
+  service-id 6008
+   offline-urr-id 26008
+  !
+  service-id 6009
+   offline-urr-id 26009
+  !
+  service-id 6010
+   offline-urr-id 26010
+  !
+  service-id 6011
+   offline-urr-id 26011
+  !
+  service-id 6012
+   offline-urr-id 26012
+  !
+  service-id 6013
+   offline-urr-id 26013
+  !
+  service-id 6014
+   offline-urr-id 26014
+  !
+  service-id 6015
+   offline-urr-id 26015
+  !
+  service-id 6016
+   offline-urr-id 26016
+  !
+  service-id 6017
+   offline-urr-id 26017
+  !
+  service-id 6018
+   offline-urr-id 26018
+  !
+  service-id 6019
+   offline-urr-id 26019
+  !
+  service-id 6020
+   offline-urr-id 26020
+  !
+  service-id 6021
+   offline-urr-id 26021
+  !
+  service-id 6022
+   offline-urr-id 26022
+  !
+  service-id 6023
+   offline-urr-id 26023
+  !
+  service-id 6024
+   offline-urr-id 26024
+  !
+  service-id 6025
+   offline-urr-id 26025
+  !
+  service-id 6026
+   offline-urr-id 26026
+  !
+  service-id 6027
+   offline-urr-id 26027
+  !
+  service-id 6028
+   offline-urr-id 26028
+  !
+  service-id 6029
+   offline-urr-id 26029
+  !
+  service-id 6030
+   offline-urr-id 26030
+  !
+  service-id 6031
+   offline-urr-id 26031
+  !
+  service-id 6032
+   offline-urr-id 26032
+  !
+  service-id 6033
+   offline-urr-id 26033
+  !
+  service-id 6034
+   offline-urr-id 26034
+  !
+  service-id 6035
+   offline-urr-id 26035
+  !
+  service-id 6036
+   offline-urr-id 26036
+  !
+  service-id 6037
+   offline-urr-id 26037
+  !
+  service-id 6038
+   offline-urr-id 26038
+  !
+  service-id 6039
+   offline-urr-id 26039
+  !
+  service-id 6040
+   offline-urr-id 26040
+  !
+  service-id 6041
+   offline-urr-id 26041
+  !
+  service-id 6042
+   offline-urr-id 26042
+  !
+  service-id 6043
+   offline-urr-id 26043
+  !
+  service-id 6044
+   offline-urr-id 26044
+  !
+  service-id 6045
+   offline-urr-id 26045
+  !
+  service-id 6046
+   offline-urr-id 26046
+  !
+  service-id 6047
+   offline-urr-id 26047
+  !
+  service-id 6048
+   offline-urr-id 26048
+  !
+  service-id 6049
+   offline-urr-id 26049
+  !
+  service-id 6050
+   offline-urr-id 26050
+  !
+  service-id 6051
+   offline-urr-id 26051
+  !
+  service-id 6052
+   offline-urr-id 26052
+  !
+  service-id 6053
+   offline-urr-id 26053
+  !
+  service-id 6054
+   offline-urr-id 26054
+  !
+  service-id 6055
+   offline-urr-id 26055
+  !
+  service-id 6056
+   offline-urr-id 26056
+  !
+  service-id 6057
+   offline-urr-id 26057
+  !
+  service-id 6058
+   offline-urr-id 26058
+  !
+  service-id 6059
+   offline-urr-id 26059
+  !
+  service-id 6060
+   offline-urr-id 26060
+  !
+  service-id 6061
+   offline-urr-id 26061
+  !
+  service-id 6062
+   offline-urr-id 26062
+  !
+  service-id 6063
+   offline-urr-id 26063
+  !
+  service-id 6064
+   offline-urr-id 26064
+  !
+  service-id 6065
+   offline-urr-id 26065
+  !
+  service-id 6066
+   offline-urr-id 26066
+  !
+  service-id 6067
+   offline-urr-id 26067
+  !
+  service-id 6068
+   offline-urr-id 26068
+  !
+  service-id 6069
+   offline-urr-id 26069
+  !
+  service-id 6070
+   offline-urr-id 26070
+  !
+  service-id 6071
+   offline-urr-id 26071
+  !
+  service-id 6072
+   offline-urr-id 26072
+  !
+  service-id 6073
+   offline-urr-id 26073
+  !
+  service-id 6074
+   offline-urr-id 26074
+  !
+  service-id 6075
+   offline-urr-id 26075
+  !
+  service-id 6076
+   offline-urr-id 26076
+  !
+  service-id 6077
+   offline-urr-id 26077
+  !
+  service-id 6078
+   offline-urr-id 26078
+  !
+  service-id 6079
+   offline-urr-id 26079
+  !
+  service-id 6080
+   offline-urr-id 26080
+  !
+  service-id 6081
+   offline-urr-id 26081
+  !
+  service-id 6082
+   offline-urr-id 26082
+  !
+  service-id 6083
+   offline-urr-id 26083
+  !
+  service-id 6084
+   offline-urr-id 26084
+  !
+  service-id 6085
+   offline-urr-id 26085
+  !
+  service-id 6086
+   offline-urr-id 26086
+  !
+  service-id 6087
+   offline-urr-id 26087
+  !
+  service-id 6088
+   offline-urr-id 26088
+  !
+  service-id 6089
+   offline-urr-id 26089
+  !
+  service-id 6090
+   offline-urr-id 26090
+  !
+  service-id 6091
+   offline-urr-id 26091
+  !
+  service-id 6092
+   offline-urr-id 26092
+  !
+  service-id 6093
+   offline-urr-id 26093
+  !
+  service-id 6094
+   offline-urr-id 26094
+  !
+  service-id 6095
+   offline-urr-id 26095
+  !
+  service-id 6096
+   offline-urr-id 26096
+  !
+  service-id 6097
+   offline-urr-id 26097
+  !
+  service-id 6098
+   offline-urr-id 26098
+  !
+  service-id 6099
+   offline-urr-id 26099
+  !
+  service-id 6100
+   offline-urr-id 26100
+  !
+  service-id 6101
+   offline-urr-id 26101
+  !
+  service-id 6102
+   offline-urr-id 26102
+  !
+  service-id 6103
+   offline-urr-id 26103
+  !
+  service-id 6104
+   offline-urr-id 26104
+  !
+  service-id 6105
+   offline-urr-id 26105
+  !
+  service-id 6106
+   offline-urr-id 26106
+  !
+  service-id 6107
+   offline-urr-id 26107
+  !
+  service-id 6108
+   offline-urr-id 26108
+  !
+  service-id 6109
+   offline-urr-id 26109
+  !
+  service-id 6110
+   offline-urr-id 26110
+  !
+  service-id 6111
+   offline-urr-id 26111
+  !
+  service-id 6112
+   offline-urr-id 26112
+  !
+  service-id 6113
+   offline-urr-id 26113
+  !
+  service-id 6114
+   offline-urr-id 26114
+  !
+  service-id 6115
+   offline-urr-id 26115
+  !
+  service-id 6116
+   offline-urr-id 26116
+  !
+  service-id 6117
+   offline-urr-id 26117
+  !
+  service-id 6118
+   offline-urr-id 26118
+  !
+  service-id 6119
+   offline-urr-id 26119
+  !
+  service-id 6120
+   offline-urr-id 26120
+  !
+  service-id 6666
+   offline-urr-id 26666
+  !
+  service-id 8888
+   offline-urr-id 28888
+  !
+ !
+ rating-group 1
+  offline-urr-id 40000
+  service-id 1001
+   offline-urr-id 41001
+  !
+  service-id 1002
+   offline-urr-id 41002
+  !
+  service-id 1003
+   offline-urr-id 41003
+  !
+  service-id 1005
+   offline-urr-id 41005
+  !
+  service-id 1006
+   offline-urr-id 41006
+  !
+  service-id 1009
+   offline-urr-id 41009
+  !
+  service-id 1010
+   offline-urr-id 41010
+  !
+  service-id 1011
+   offline-urr-id 41011
+  !
+  service-id 1012
+   offline-urr-id 41012
+  !
+  service-id 1014
+   offline-urr-id 41014
+  !
+  service-id 1016
+   offline-urr-id 41016
+  !
+  service-id 1019
+   offline-urr-id 41019
+  !
+  service-id 1021
+   offline-urr-id 41021
+  !
+  service-id 1022
+   offline-urr-id 41022
+  !
+  service-id 1023
+   offline-urr-id 41023
+  !
+  service-id 1024
+   offline-urr-id 41024
+  !
+  service-id 1028
+   offline-urr-id 41028
+  !
+  service-id 1029
+   offline-urr-id 41029
+  !
+  service-id 1030
+   offline-urr-id 41030
+  !
+  service-id 1035
+   offline-urr-id 41035
+  !
+  service-id 1040
+   offline-urr-id 41040
+  !
+  service-id 1041
+   offline-urr-id 41041
+  !
+  service-id 1042
+   offline-urr-id 41042
+  !
+  service-id 1043
+   offline-urr-id 41043
+  !
+  service-id 1044
+   offline-urr-id 41044
+  !
+  service-id 1045
+   offline-urr-id 41045
+  !
+  service-id 1046
+   offline-urr-id 41046
+  !
+  service-id 1047
+   offline-urr-id 41047
+  !
+  service-id 1048
+   offline-urr-id 41048
+  !
+  service-id 1105
+   offline-urr-id 41105
+  !
+  service-id 1107
+   offline-urr-id 41107
+  !
+  service-id 1110
+   offline-urr-id 41110
+  !
+  service-id 1116
+   offline-urr-id 41116
+  !
+  service-id 1117
+   offline-urr-id 41117
+  !
+  service-id 1125
+   offline-urr-id 41125
+  !
+  service-id 1127
+   offline-urr-id 41127
+  !
+  service-id 1132
+   offline-urr-id 41132
+  !
+  service-id 1135
+   offline-urr-id 41135
+  !
+  service-id 1138
+   offline-urr-id 41138
+  !
+  service-id 1144
+   offline-urr-id 41144
+  !
+  service-id 1157
+   offline-urr-id 41157
+  !
+  service-id 1164
+   offline-urr-id 41164
+  !
+  service-id 1165
+   offline-urr-id 41165
+  !
+  service-id 1166
+   offline-urr-id 41166
+  !
+  service-id 1169
+   offline-urr-id 41169
+  !
+  service-id 1171
+   offline-urr-id 41171
+  !
+  service-id 1174
+   offline-urr-id 41174
+  !
+  service-id 1178
+   offline-urr-id 41178
+  !
+  service-id 1179
+   offline-urr-id 41179
+  !
+  service-id 1181
+   offline-urr-id 41181
+  !
+  service-id 1183
+   offline-urr-id 41183
+  !
+  service-id 1185
+   offline-urr-id 41185
+  !
+  service-id 1191
+   offline-urr-id 41191
+  !
+  service-id 1195
+   offline-urr-id 41195
+  !
+  service-id 1197
+   offline-urr-id 41197
+  !
+  service-id 1198
+   offline-urr-id 41198
+  !
+  service-id 1203
+   offline-urr-id 41203
+  !
+  service-id 1206
+   offline-urr-id 41206
+  !
+  service-id 1208
+   offline-urr-id 41208
+  !
+  service-id 1210
+   offline-urr-id 41210
+  !
+  service-id 1213
+   offline-urr-id 41213
+  !
+  service-id 1216
+   offline-urr-id 41216
+  !
+  service-id 1217
+   offline-urr-id 41217
+  !
+  service-id 1222
+   offline-urr-id 41222
+  !
+  service-id 1223
+   offline-urr-id 41223
+  !
+  service-id 1226
+   offline-urr-id 41226
+  !
+  service-id 1227
+   offline-urr-id 41227
+  !
+  service-id 1228
+   offline-urr-id 41228
+  !
+  service-id 1240
+   offline-urr-id 41240
+  !
+  service-id 1247
+   offline-urr-id 41247
+  !
+  service-id 1248
+   offline-urr-id 41248
+  !
+  service-id 1249
+   offline-urr-id 41249
+  !
+  service-id 1253
+   offline-urr-id 41253
+  !
+  service-id 1254
+   offline-urr-id 41254
+  !
+  service-id 1260
+   offline-urr-id 41260
+  !
+  service-id 1262
+   offline-urr-id 41262
+  !
+  service-id 1263
+   offline-urr-id 41263
+  !
+  service-id 1265
+   offline-urr-id 41265
+  !
+  service-id 1269
+   offline-urr-id 41269
+  !
+  service-id 1270
+   offline-urr-id 41270
+  !
+  service-id 1273
+   offline-urr-id 41273
+  !
+  service-id 1274
+   offline-urr-id 41274
+  !
+  service-id 1275
+   offline-urr-id 41275
+  !
+  service-id 1276
+   offline-urr-id 41276
+  !
+  service-id 1277
+   offline-urr-id 41277
+  !
+  service-id 1278
+   offline-urr-id 41278
+  !
+  service-id 1279
+   offline-urr-id 41279
+  !
+  service-id 1280
+   offline-urr-id 41280
+  !
+  service-id 1281
+   offline-urr-id 41281
+  !
+  service-id 1282
+   offline-urr-id 41282
+  !
+  service-id 1283
+   offline-urr-id 41283
+  !
+  service-id 1284
+   offline-urr-id 41284
+  !
+  service-id 1285
+   offline-urr-id 41285
+  !
+  service-id 1286
+   offline-urr-id 41286
+  !
+  service-id 1287
+   offline-urr-id 41287
+  !
+  service-id 1288
+   offline-urr-id 41288
+  !
+  service-id 1290
+   offline-urr-id 41290
+  !
+  service-id 1291
+   offline-urr-id 41291
+  !
+  service-id 1292
+   offline-urr-id 41292
+  !
+  service-id 1293
+   offline-urr-id 41293
+  !
+  service-id 1294
+   offline-urr-id 41294
+  !
+  service-id 1295
+   offline-urr-id 41295
+  !
+  service-id 1296
+   offline-urr-id 41296
+  !
+  service-id 1301
+   offline-urr-id 41301
+  !
+  service-id 1303
+   offline-urr-id 41303
+  !
+  service-id 1305
+   offline-urr-id 41305
+  !
+  service-id 1307
+   offline-urr-id 41307
+  !
+  service-id 1308
+   offline-urr-id 41308
+  !
+  service-id 1309
+   offline-urr-id 41309
+  !
+  service-id 1311
+   offline-urr-id 41311
+  !
+  service-id 1312
+   offline-urr-id 41312
+  !
+  service-id 1313
+   offline-urr-id 41313
+  !
+  service-id 1314
+   offline-urr-id 41314
+  !
+  service-id 1315
+   offline-urr-id 41315
+  !
+  service-id 1316
+   offline-urr-id 41316
+  !
+  service-id 1317
+   offline-urr-id 41317
+  !
+  service-id 1318
+   offline-urr-id 41318
+  !
+  service-id 1319
+   offline-urr-id 41319
+  !
+  service-id 1320
+   offline-urr-id 41320
+  !
+  service-id 1322
+   offline-urr-id 41322
+  !
+  service-id 1323
+   offline-urr-id 41323
+  !
+  service-id 1324
+   offline-urr-id 41324
+  !
+  service-id 1326
+   offline-urr-id 41326
+  !
+  service-id 1327
+   offline-urr-id 41327
+  !
+  service-id 1328
+   offline-urr-id 41328
+  !
+  service-id 1329
+   offline-urr-id 41329
+  !
+  service-id 1330
+   offline-urr-id 41330
+  !
+  service-id 1331
+   offline-urr-id 41331
+  !
+  service-id 1332
+   offline-urr-id 41332
+  !
+  service-id 1334
+   offline-urr-id 41334
+  !
+  service-id 1335
+   offline-urr-id 41335
+  !
+  service-id 1338
+   offline-urr-id 41338
+  !
+  service-id 1339
+   offline-urr-id 41339
+  !
+  service-id 1340
+   offline-urr-id 41340
+  !
+  service-id 1341
+   offline-urr-id 41341
+  !
+  service-id 1342
+   offline-urr-id 41342
+  !
+  service-id 1343
+   offline-urr-id 41343
+  !
+  service-id 1344
+   offline-urr-id 41344
+  !
+  service-id 1345
+   offline-urr-id 41345
+  !
+  service-id 1346
+   offline-urr-id 41346
+  !
+  service-id 1347
+   offline-urr-id 41347
+  !
+  service-id 1348
+   offline-urr-id 41348
+  !
+  service-id 1349
+   offline-urr-id 41349
+  !
+  service-id 1350
+   offline-urr-id 41350
+  !
+  service-id 1351
+   offline-urr-id 41351
+  !
+  service-id 1352
+   offline-urr-id 41352
+  !
+  service-id 1353
+   offline-urr-id 41353
+  !
+  service-id 1354
+   offline-urr-id 41354
+  !
+  service-id 1355
+   offline-urr-id 41355
+  !
+  service-id 1356
+   offline-urr-id 41356
+  !
+  service-id 1357
+   offline-urr-id 41357
+  !
+  service-id 1358
+   offline-urr-id 41358
+  !
+  service-id 1359
+   offline-urr-id 41359
+  !
+  service-id 1360
+   offline-urr-id 41360
+  !
+  service-id 1361
+   offline-urr-id 41361
+  !
+  service-id 1362
+   offline-urr-id 41362
+  !
+  service-id 1363
+   offline-urr-id 41363
+  !
+  service-id 1364
+   offline-urr-id 41364
+  !
+  service-id 1365
+   offline-urr-id 41365
+  !
+  service-id 1366
+   offline-urr-id 41366
+  !
+  service-id 1367
+   offline-urr-id 41367
+  !
+  service-id 1368
+   offline-urr-id 41368
+  !
+  service-id 1369
+   offline-urr-id 41369
+  !
+  service-id 1370
+   offline-urr-id 41370
+  !
+  service-id 1371
+   offline-urr-id 41371
+  !
+  service-id 1373
+   offline-urr-id 41373
+  !
+  service-id 3001
+   offline-urr-id 43001
+  !
+  service-id 3002
+   offline-urr-id 43002
+  !
+  service-id 3003
+   offline-urr-id 43003
+  !
+  service-id 3004
+   offline-urr-id 43004
+  !
+  service-id 3005
+   offline-urr-id 43005
+  !
+  service-id 3006
+   offline-urr-id 43006
+  !
+  service-id 3007
+   offline-urr-id 43007
+  !
+  service-id 3008
+   offline-urr-id 43008
+  !
+  service-id 3009
+   offline-urr-id 43009
+  !
+  service-id 3010
+   offline-urr-id 43010
+  !
+  service-id 3501
+   offline-urr-id 43501
+  !
+  service-id 3502
+   offline-urr-id 43502
+  !
+  service-id 3503
+   offline-urr-id 43503
+  !
+  service-id 3504
+   offline-urr-id 43504
+  !
+  service-id 3505
+   offline-urr-id 43505
+  !
+  service-id 3506
+   offline-urr-id 43506
+  !
+  service-id 3507
+   offline-urr-id 43507
+  !
+  service-id 3508
+   offline-urr-id 43508
+  !
+  service-id 3509
+   offline-urr-id 43509
+  !
+  service-id 3510
+   offline-urr-id 43510
+  !
+  service-id 3511
+   offline-urr-id 43511
+  !
+  service-id 3512
+   offline-urr-id 43512
+  !
+  service-id 3513
+   offline-urr-id 43513
+  !
+  service-id 3514
+   offline-urr-id 43514
+  !
+  service-id 3515
+   offline-urr-id 43515
+  !
+  service-id 3516
+   offline-urr-id 43516
+  !
+  service-id 3517
+   offline-urr-id 43517
+  !
+  service-id 3518
+   offline-urr-id 43518
+  !
+  service-id 3519
+   offline-urr-id 43519
+  !
+  service-id 3520
+   offline-urr-id 43520
+  !
+  service-id 3521
+   offline-urr-id 43521
+  !
+  service-id 3522
+   offline-urr-id 43522
+  !
+  service-id 3523
+   offline-urr-id 43523
+  !
+  service-id 3524
+   offline-urr-id 43524
+  !
+  service-id 3525
+   offline-urr-id 43525
+  !
+  service-id 3526
+   offline-urr-id 43526
+  !
+  service-id 3527
+   offline-urr-id 43527
+  !
+  service-id 3528
+   offline-urr-id 43528
+  !
+  service-id 3529
+   offline-urr-id 43529
+  !
+  service-id 3530
+   offline-urr-id 43530
+  !
+  service-id 3531
+   offline-urr-id 43531
+  !
+  service-id 3532
+   offline-urr-id 43532
+  !
+  service-id 3533
+   offline-urr-id 43533
+  !
+  service-id 3534
+   offline-urr-id 43534
+  !
+  service-id 3535
+   offline-urr-id 43535
+  !
+  service-id 3536
+   offline-urr-id 43536
+  !
+  service-id 3537
+   offline-urr-id 43537
+  !
+  service-id 3538
+   offline-urr-id 43538
+  !
+  service-id 3539
+   offline-urr-id 43539
+  !
+  service-id 3540
+   offline-urr-id 43540
+  !
+  service-id 4001
+   offline-urr-id 44001
+  !
+  service-id 4002
+   offline-urr-id 44002
+  !
+  service-id 4003
+   offline-urr-id 44003
+  !
+  service-id 4004
+   offline-urr-id 44004
+  !
+  service-id 4005
+   offline-urr-id 44005
+  !
+  service-id 4006
+   offline-urr-id 44006
+  !
+  service-id 4007
+   offline-urr-id 44007
+  !
+  service-id 4008
+   offline-urr-id 44008
+  !
+  service-id 4009
+   offline-urr-id 44009
+  !
+  service-id 4010
+   offline-urr-id 44010
+  !
+  service-id 4501
+   offline-urr-id 44501
+  !
+  service-id 4502
+   offline-urr-id 44502
+  !
+  service-id 4503
+   offline-urr-id 44503
+  !
+  service-id 4504
+   offline-urr-id 44504
+  !
+  service-id 4505
+   offline-urr-id 44505
+  !
+  service-id 4506
+   offline-urr-id 44506
+  !
+  service-id 4507
+   offline-urr-id 44507
+  !
+  service-id 4508
+   offline-urr-id 44508
+  !
+  service-id 4509
+   offline-urr-id 44509
+  !
+  service-id 4510
+   offline-urr-id 44510
+  !
+  service-id 5001
+   offline-urr-id 45001
+  !
+  service-id 5002
+   offline-urr-id 45002
+  !
+  service-id 5003
+   offline-urr-id 45003
+  !
+  service-id 5004
+   offline-urr-id 45004
+  !
+  service-id 5005
+   offline-urr-id 45005
+  !
+  service-id 5006
+   offline-urr-id 45006
+  !
+  service-id 5007
+   offline-urr-id 45007
+  !
+  service-id 5008
+   offline-urr-id 45008
+  !
+  service-id 5009
+   offline-urr-id 45009
+  !
+  service-id 5010
+   offline-urr-id 45010
+  !
+  service-id 5011
+   offline-urr-id 45011
+  !
+  service-id 5012
+   offline-urr-id 45012
+  !
+  service-id 5013
+   offline-urr-id 45013
+  !
+  service-id 5014
+   offline-urr-id 45014
+  !
+  service-id 5015
+   offline-urr-id 45015
+  !
+  service-id 5016
+   offline-urr-id 45016
+  !
+  service-id 5017
+   offline-urr-id 45017
+  !
+  service-id 5018
+   offline-urr-id 45018
+  !
+  service-id 5019
+   offline-urr-id 45019
+  !
+  service-id 5020
+   offline-urr-id 45020
+  !
+  service-id 5501
+   offline-urr-id 45501
+  !
+  service-id 5502
+   offline-urr-id 45502
+  !
+  service-id 5503
+   offline-urr-id 45503
+  !
+  service-id 5504
+   offline-urr-id 45504
+  !
+  service-id 5505
+   offline-urr-id 45505
+  !
+  service-id 5506
+   offline-urr-id 45506
+  !
+  service-id 5507
+   offline-urr-id 45507
+  !
+  service-id 5508
+   offline-urr-id 45508
+  !
+  service-id 5509
+   offline-urr-id 45509
+  !
+  service-id 5510
+   offline-urr-id 45510
+  !
+  service-id 5511
+   offline-urr-id 45511
+  !
+  service-id 5512
+   offline-urr-id 45512
+  !
+  service-id 5513
+   offline-urr-id 45513
+  !
+  service-id 5514
+   offline-urr-id 45514
+  !
+  service-id 5515
+   offline-urr-id 45515
+  !
+  service-id 5516
+   offline-urr-id 45516
+  !
+  service-id 5517
+   offline-urr-id 45517
+  !
+  service-id 5518
+   offline-urr-id 45518
+  !
+  service-id 5519
+   offline-urr-id 45519
+  !
+  service-id 5520
+   offline-urr-id 45520
+  !
+  service-id 5555
+   offline-urr-id 45555
+  !
+  service-id 6001
+   offline-urr-id 46001
+  !
+  service-id 6002
+   offline-urr-id 46002
+  !
+  service-id 6003
+   offline-urr-id 46003
+  !
+  service-id 6004
+   offline-urr-id 46004
+  !
+  service-id 6005
+   offline-urr-id 46005
+  !
+  service-id 6006
+   offline-urr-id 46006
+  !
+  service-id 6007
+   offline-urr-id 46007
+  !
+  service-id 6008
+   offline-urr-id 46008
+  !
+  service-id 6009
+   offline-urr-id 46009
+  !
+  service-id 6010
+   offline-urr-id 46010
+  !
+  service-id 6011
+   offline-urr-id 46011
+  !
+  service-id 6012
+   offline-urr-id 46012
+  !
+  service-id 6013
+   offline-urr-id 46013
+  !
+  service-id 6014
+   offline-urr-id 46014
+  !
+  service-id 6015
+   offline-urr-id 46015
+  !
+  service-id 6016
+   offline-urr-id 46016
+  !
+  service-id 6017
+   offline-urr-id 46017
+  !
+  service-id 6018
+   offline-urr-id 46018
+  !
+  service-id 6019
+   offline-urr-id 46019
+  !
+  service-id 6020
+   offline-urr-id 46020
+  !
+  service-id 6021
+   offline-urr-id 46021
+  !
+  service-id 6022
+   offline-urr-id 46022
+  !
+  service-id 6023
+   offline-urr-id 46023
+  !
+  service-id 6024
+   offline-urr-id 46024
+  !
+  service-id 6025
+   offline-urr-id 46025
+  !
+  service-id 6026
+   offline-urr-id 46026
+  !
+  service-id 6027
+   offline-urr-id 46027
+  !
+  service-id 6028
+   offline-urr-id 46028
+  !
+  service-id 6029
+   offline-urr-id 46029
+  !
+  service-id 6030
+   offline-urr-id 46030
+  !
+  service-id 6031
+   offline-urr-id 46031
+  !
+  service-id 6032
+   offline-urr-id 46032
+  !
+  service-id 6033
+   offline-urr-id 46033
+  !
+  service-id 6034
+   offline-urr-id 46034
+  !
+  service-id 6035
+   offline-urr-id 46035
+  !
+  service-id 6036
+   offline-urr-id 46036
+  !
+  service-id 6037
+   offline-urr-id 46037
+  !
+  service-id 6038
+   offline-urr-id 46038
+  !
+  service-id 6039
+   offline-urr-id 46039
+  !
+  service-id 6040
+   offline-urr-id 46040
+  !
+  service-id 6041
+   offline-urr-id 46041
+  !
+  service-id 6042
+   offline-urr-id 46042
+  !
+  service-id 6043
+   offline-urr-id 46043
+  !
+  service-id 6044
+   offline-urr-id 46044
+  !
+  service-id 6045
+   offline-urr-id 46045
+  !
+  service-id 6046
+   offline-urr-id 46046
+  !
+  service-id 6047
+   offline-urr-id 46047
+  !
+  service-id 6048
+   offline-urr-id 46048
+  !
+  service-id 6049
+   offline-urr-id 46049
+  !
+  service-id 6050
+   offline-urr-id 46050
+  !
+  service-id 6051
+   offline-urr-id 46051
+  !
+  service-id 6052
+   offline-urr-id 46052
+  !
+  service-id 6053
+   offline-urr-id 46053
+  !
+  service-id 6054
+   offline-urr-id 46054
+  !
+  service-id 6055
+   offline-urr-id 46055
+  !
+  service-id 6056
+   offline-urr-id 46056
+  !
+  service-id 6057
+   offline-urr-id 46057
+  !
+  service-id 6058
+   offline-urr-id 46058
+  !
+  service-id 6059
+   offline-urr-id 46059
+  !
+  service-id 6060
+   offline-urr-id 46060
+  !
+  service-id 6061
+   offline-urr-id 46061
+  !
+  service-id 6062
+   offline-urr-id 46062
+  !
+  service-id 6063
+   offline-urr-id 46063
+  !
+  service-id 6064
+   offline-urr-id 46064
+  !
+  service-id 6065
+   offline-urr-id 46065
+  !
+  service-id 6066
+   offline-urr-id 46066
+  !
+  service-id 6067
+   offline-urr-id 46067
+  !
+  service-id 6068
+   offline-urr-id 46068
+  !
+  service-id 6069
+   offline-urr-id 46069
+  !
+  service-id 6070
+   offline-urr-id 46070
+  !
+  service-id 6071
+   offline-urr-id 46071
+  !
+  service-id 6072
+   offline-urr-id 46072
+  !
+  service-id 6073
+   offline-urr-id 46073
+  !
+  service-id 6074
+   offline-urr-id 46074
+  !
+  service-id 6075
+   offline-urr-id 46075
+  !
+  service-id 6076
+   offline-urr-id 46076
+  !
+  service-id 6077
+   offline-urr-id 46077
+  !
+  service-id 6078
+   offline-urr-id 46078
+  !
+  service-id 6079
+   offline-urr-id 46079
+  !
+  service-id 6080
+   offline-urr-id 46080
+  !
+  service-id 6081
+   offline-urr-id 46081
+  !
+  service-id 6082
+   offline-urr-id 46082
+  !
+  service-id 6083
+   offline-urr-id 46083
+  !
+  service-id 6084
+   offline-urr-id 46084
+  !
+  service-id 6085
+   offline-urr-id 46085
+  !
+  service-id 6086
+   offline-urr-id 46086
+  !
+  service-id 6087
+   offline-urr-id 46087
+  !
+  service-id 6088
+   offline-urr-id 46088
+  !
+  service-id 6089
+   offline-urr-id 46089
+  !
+  service-id 6090
+   offline-urr-id 46090
+  !
+  service-id 6091
+   offline-urr-id 46091
+  !
+  service-id 6092
+   offline-urr-id 46092
+  !
+  service-id 6093
+   offline-urr-id 46093
+  !
+  service-id 6094
+   offline-urr-id 46094
+  !
+  service-id 6095
+   offline-urr-id 46095
+  !
+  service-id 6096
+   offline-urr-id 46096
+  !
+  service-id 6097
+   offline-urr-id 46097
+  !
+  service-id 6098
+   offline-urr-id 46098
+  !
+  service-id 6099
+   offline-urr-id 46099
+  !
+  service-id 6100
+   offline-urr-id 46100
+  !
+  service-id 6101
+   offline-urr-id 46101
+  !
+  service-id 6102
+   offline-urr-id 46102
+  !
+  service-id 6103
+   offline-urr-id 46103
+  !
+  service-id 6104
+   offline-urr-id 46104
+  !
+  service-id 6105
+   offline-urr-id 46105
+  !
+  service-id 6106
+   offline-urr-id 46106
+  !
+  service-id 6107
+   offline-urr-id 46107
+  !
+  service-id 6108
+   offline-urr-id 46108
+  !
+  service-id 6109
+   offline-urr-id 46109
+  !
+  service-id 6110
+   offline-urr-id 46110
+  !
+  service-id 6111
+   offline-urr-id 46111
+  !
+  service-id 6112
+   offline-urr-id 46112
+  !
+  service-id 6113
+   offline-urr-id 46113
+  !
+  service-id 6114
+   offline-urr-id 46114
+  !
+  service-id 6115
+   offline-urr-id 46115
+  !
+  service-id 6116
+   offline-urr-id 46116
+  !
+  service-id 6117
+   offline-urr-id 46117
+  !
+  service-id 6118
+   offline-urr-id 46118
+  !
+  service-id 6119
+   offline-urr-id 46119
+  !
+  service-id 6120
+   offline-urr-id 46120
+  !
+  service-id 6666
+   offline-urr-id 46666
+  !
+  service-id 8888
+   offline-urr-id 48888
+  !
+ !
+

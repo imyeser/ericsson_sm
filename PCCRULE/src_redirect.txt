@@ -1,0 +1,96 @@
+epg pgw packet-enforcement traffic-redirection rule 100_DNS_PRI_READDR_V4
+ destination-nat ipv4-address 172.19.140.7
+!
+epg pgw packet-enforcement traffic-redirection rule 101_DNS_SEC_READDR_V4
+ destination-nat ipv4-address 172.27.56.170
+!
+epg pgw packet-enforcement traffic-redirection rule 200_DNS_PRI_READDR_V6
+ destination-nat ipv6-address fd00:213:301:c::7
+!
+epg pgw packet-enforcement traffic-redirection rule 201_DNS_SEC_READDR_V6
+ destination-nat ipv6-address fd00:613:301:c::10
+!
+epg pgw packet-enforcement traffic-redirection rule 300_Readdr_to_DS_IMS_PUB_BK_IPv4
+ destination-nat ipv4-address 223.39.142.50
+!
+epg pgw packet-enforcement traffic-redirection rule 301_Readdr_to_DS_IMS_PUB_BK_IPv6
+ destination-nat ipv6-address 2001:2d8:60:180::50
+!
+epg pgw packet-enforcement traffic-redirection rule 302_Readdr_to_SS_IMS_BK_IPv4
+ destination-nat ipv4-address 172.28.102.150
+!
+epg pgw packet-enforcement traffic-redirection rule 303_Readdr_to_SS_IMS_BK_IPv6
+ destination-nat ipv6-address fd00:e15:501:2::150
+!
+epg pgw packet-enforcement traffic-redirection rule 304_Readdr_to_DS_IMS_A_IPv4
+ destination-nat ipv4-address 172.28.111.10
+!
+epg pgw packet-enforcement traffic-redirection rule 305_Readdr_to_DS_IMS_A_IPv6
+ destination-nat ipv6-address fd00:615:101:2::10
+!
+epg pgw packet-enforcement traffic-redirection rule 306_Readdr_to_DS_IMS_PUB_A_IPv4
+ destination-nat ipv4-address 223.33.172.150
+!
+epg pgw packet-enforcement traffic-redirection rule 307_Readdr_to_DS_IMS_PUB_A_IPv6
+ destination-nat ipv6-address 2001:2d8:60:171::150
+!
+epg pgw packet-enforcement traffic-redirection rule 308_Readdr_to_DS_IMS_B_IPv4
+ destination-nat ipv4-address 223.39.132.50
+!
+epg pgw packet-enforcement traffic-redirection rule 309_Readdr_to_DS_IMS_B_IPv6
+ destination-nat ipv6-address 2001:2d8:60:178::50
+!
+epg pgw packet-enforcement traffic-redirection rule 310_Readdr_to_DS_IMS_BK_IPv4
+ destination-nat ipv4-address 172.28.111.140
+!
+epg pgw packet-enforcement traffic-redirection rule 311_Readdr_to_DS_IMS_BK_IPv6
+ destination-nat ipv6-address fd00:615:501:2::140
+!
+epg pgw packet-enforcement traffic-redirection rule 312_Readdr_to_SS_IMS_A_IPv4
+ destination-nat ipv4-address 220.103.220.50
+!
+epg pgw packet-enforcement traffic-redirection rule 313_Readdr_to_SS_IMS_A_IPv6
+ destination-nat ipv6-address 2001:2d8:e0:220::50
+!
+epg pgw packet-enforcement traffic-redirection rule 314_Readdr_to_SS_IMS_B_IPv4
+ destination-nat ipv4-address 172.28.102.100
+!
+epg pgw packet-enforcement traffic-redirection rule 315_Readdr_to_SS_IMS_B_IPv6
+ destination-nat ipv6-address fd00:e15:301:2::100
+!
+epg pgw packet-enforcement traffic-redirection rule 316_Readdr_to_DS_IMS_A53_IPV4
+ destination-nat ipv4-address 172.28.112.53
+!
+epg pgw packet-enforcement traffic-redirection rule 317_Readdr_to_DS_IMS_A53_IPV6
+ destination-nat ipv6-address fd00:615:101:3::53
+!
+epg pgw packet-enforcement traffic-redirection rule 318_Readdr_to_DS_IMS_BK71_IPV4
+ destination-nat ipv4-address 172.28.114.71
+!
+epg pgw packet-enforcement traffic-redirection rule 319_Readdr_to_DS_IMS_BK71_IPV6
+ destination-nat ipv6-address fd00:615:501:3::71
+!
+epg pgw packet-enforcement traffic-redirection rule 41_QUOTA_DNS_PRI_READDR_V6
+ destination-nat ipv4-address 211.234.248.11
+!
+epg pgw packet-enforcement traffic-redirection rule 42_QUOTA_DNS_SEC_READDR_V6
+ destination-nat ipv4-address 211.234.248.11
+!
+epg pgw packet-enforcement traffic-redirection rule 46_QUOTA_DNS_PRI_READDR_V4
+ destination-nat ipv4-address 211.234.248.11
+!
+epg pgw packet-enforcement traffic-redirection rule 47_QUOTA_DNS_SEC_READDR_V4
+ destination-nat ipv4-address 211.234.248.11
+!
+epg pgw packet-enforcement traffic-redirection rule 51_DNS_PRI_READDR_V6
+ destination-nat ipv6-address fd00:213:101:c::31
+!
+epg pgw packet-enforcement traffic-redirection rule 52_DNS_SEC_READDR_V6
+ destination-nat ipv6-address fd00:213:101:c::31
+!
+epg pgw packet-enforcement traffic-redirection rule 71_DNS_PRI_READDR_V4
+ destination-nat ipv4-address 113.217.240.31
+!
+epg pgw packet-enforcement traffic-redirection rule 72_DNS_SEC_READDR_V4
+ destination-nat ipv4-address 113.217.240.31
+!
